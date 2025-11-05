@@ -7,7 +7,7 @@
 ### Версия 1.0 "Basic" ✅
 
 **Демо работы:**  
-![Версия 1.0](docs/version1.png)
+<img src="docs/version1.png" width="400" />
 
 **Функционал:**
 
@@ -18,10 +18,10 @@
 ### Версия 2.0 "Virtual Keyboard" ✅
 
 **Референс UI:**  
-![Референс версии 2.0](docs/version2-reference.png)
+<img src="docs/version2-reference.png" width="400" />
 
 **Демо работы:**
-![Демо версии 2.0](docs/version2.gif)
+<img src="docs/version2.gif" width="400" />
 
 **Функционал:**
 

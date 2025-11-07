@@ -1,0 +1,13 @@
+{
+  "name": "js-calculator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "serve",
+    "bugs": "gh issue list --label bug --state open",
+    "bug": "node scripts/bug.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.5"
+  }
+}

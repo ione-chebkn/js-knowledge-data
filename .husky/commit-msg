@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+COMMIT_MSG=$(cat $1)
+
+# Ищем номер issue в начале сообщения (после типа)
+if echo "$COMMIT_MSG" | grep -q "^[a-z]*: #[0-9]"; then
+    ISSUE_NUMBER=$(echo "$COMMIT_MSG" | grep -o '#[0-9]*' | sed 's/#//')
+    echo "🔧 Закрываю issue #$ISSUE_NUMBER..."
+    gh issue close $ISSUE_NUMBER --comment "Исправлено в: $COMMIT_MSG"
+fi
+npx commitlint --edit $1

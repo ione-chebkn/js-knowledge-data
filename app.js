@@ -15,6 +15,7 @@ const validateRes = (val) => {
         // __запрещено: (*|+|/)123...
         return false
     }
+
     const lastToken = valTrimStr.at(-1)
     if (isNaN(lastToken)) {
         // __запрещено: ...123(*|+|/|-)

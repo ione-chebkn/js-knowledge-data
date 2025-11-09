@@ -63,7 +63,6 @@ const updateRes = (val) => {
             }
         }
     } catch (e) {
-        console.log(e.message)
         result.classList.add("error")
     }
 }
@@ -78,6 +77,20 @@ for (let btn of calcBtn) {
 document.addEventListener("keydown", function (event) {
     const val = event.key
     if (!isNaN(val) || ["+", "-", "*", "/", "Enter", "Backspace"].includes(val)) {
+        const domElement = document.querySelector(`[data-key="${val}"]`)
+        domElement.classList.add("active")
+
+        updateRes(val)
+    }
+})
+
+document.addEventListener("keyup", function (event) {
+    const val = event.key
+    if (!isNaN(val) || ["+", "-", "*", "/", "Enter", "Backspace"].includes(val)) {
+        const domElement = document.querySelector(`[data-key="${val}"]`)
+        if (domElement.classList.contains("active")) {
+            domElement.classList.remove("active")
+        }
         updateRes(val)
     }
 })

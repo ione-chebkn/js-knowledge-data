@@ -69,13 +69,27 @@ h1 {
     flex: 1;
 }
 
+/* Эффекты при наведении и нажатии */
+.calc-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    filter: brightness(0.9);
+}
+
+.calc-item:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    filter: brightness(0.8);
+}
+
+.calc-item.active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    filter: brightness(0.8);
+}
+
 /* Цифровые кнопки */
 .calc-item--number {
     background: #34495e;
-}
-
-.calc-item--number:hover {
-    background: #4a6278;
 }
 
 /* Кнопка 0 (может занимать больше места) */
@@ -88,38 +102,15 @@ h1 {
     background: #e67e22;
 }
 
-.calc-item--operation:hover {
-    background: #d35400;
-}
-
 /* Кнопка удаления */
 .calc-item--delete {
     background: #e74c3c;
-}
-
-.calc-item--delete:hover {
-    background: #c0392b;
 }
 
 /* Кнопка равенства */
 .calc-item--equals {
     background: #27ae60;
     font-weight: bold;
-}
-
-.calc-item--equals:hover {
-    background: #219653;
-}
-
-/* Эффекты при наведении и нажатии */
-.calc-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-.calc-item:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Адаптивность */

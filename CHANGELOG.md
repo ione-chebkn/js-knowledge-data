@@ -1,5 +1,59 @@
 # Changelog
 
+## v2.3.0
+
+[compare changes](https://github.com/doechon/js-calculator/compare/v2.1.1...v2.3.0)
+
+### ✨ Фичи
+
+- #8 тест ([#8](https://github.com/doechon/js-calculator/issues/8))
+- #8 тест ([#8](https://github.com/doechon/js-calculator/issues/8))
+- #8 тест ([#8](https://github.com/doechon/js-calculator/issues/8))
+- #9 Нормализация чисел: автоматически исправлять 0123 → 123 ([#9](https://github.com/doechon/js-calculator/issues/9))
+- #10 Нормализация операторов: заменять ++, +- на последний оператор ([#10](https://github.com/doechon/js-calculator/issues/10))
+
+### 🏗️ Инфраструктура
+
+- Добавлена проверка на демо для релиза, README использует changelog для вставки контента ([8aab1b0](https://github.com/doechon/js-calculator/commit/8aab1b0))
+- Добавлена проверка ветки и правильного формата коммита ([9d5c2fb](https://github.com/doechon/js-calculator/commit/9d5c2fb))
+- Добавлена проверка ветки и правильного формата коммита ([3f0528d](https://github.com/doechon/js-calculator/commit/3f0528d))
+
+### 🛠️ Технические задачи
+
+- Поправлены версии ([6a1cf90](https://github.com/doechon/js-calculator/commit/6a1cf90))
+- Настройка окружения, добавлены task ([54d62f7](https://github.com/doechon/js-calculator/commit/54d62f7))
+
+### ❤️ Contributors
+
+- Get <ivanchebykin4@gmail.com>
+
+## v2.3.0
+
+[compare changes](https://github.com/doechon/js-calculator/compare/v2.1.1...v2.3.0)
+
+### ✨ Фичи
+
+- #8 тест ([#8](https://github.com/doechon/js-calculator/issues/8))
+- #8 тест ([#8](https://github.com/doechon/js-calculator/issues/8))
+- #8 тест ([#8](https://github.com/doechon/js-calculator/issues/8))
+- #9 Нормализация чисел: автоматически исправлять 0123 → 123 ([#9](https://github.com/doechon/js-calculator/issues/9))
+- #10 Нормализация операторов: заменять ++, +- на последний оператор ([#10](https://github.com/doechon/js-calculator/issues/10))
+
+### 🏗️ Инфраструктура
+
+- Добавлена проверка на демо для релиза, README использует changelog для вставки контента ([8aab1b0](https://github.com/doechon/js-calculator/commit/8aab1b0))
+- Добавлена проверка ветки и правильного формата коммита ([9d5c2fb](https://github.com/doechon/js-calculator/commit/9d5c2fb))
+- Добавлена проверка ветки и правильного формата коммита ([3f0528d](https://github.com/doechon/js-calculator/commit/3f0528d))
+
+### 🛠️ Технические задачи
+
+- Поправлены версии ([6a1cf90](https://github.com/doechon/js-calculator/commit/6a1cf90))
+- Настройка окружения, добавлены task ([54d62f7](https://github.com/doechon/js-calculator/commit/54d62f7))
+
+### ❤️ Contributors
+
+- Get <ivanchebykin4@gmail.com>
+
 ## v2.2.0
 
 [compare changes](https://github.com/doechon/js-calculator/compare/v2.1.1...v2.2.0)

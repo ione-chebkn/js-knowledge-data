@@ -1,0 +1,147 @@
+{
+  "basics": {
+    "title": "Основы JavaScript",
+    "articles": [
+      {
+        "id": "variables",
+        "title": "Переменные",
+        "url": "/variables",
+        "applied": false
+      },
+      {
+        "id": "data-types",
+        "title": "Типы данных",
+        "url": "/types",
+        "applied": false
+      },
+      {
+        "id": "operators",
+        "title": "Операторы",
+        "url": "/operators",
+        "applied": false
+      },
+      {
+        "id": "comparison",
+        "title": "Операторы сравнения",
+        "url": "/comparison",
+        "applied": false
+      }
+    ]
+  },
+  "functions": {
+    "title": "Функции",
+    "articles": [
+      {
+        "id": "function-basics",
+        "title": "Функции",
+        "url": "/function-basics",
+        "applied": false
+      },
+      {
+        "id": "function-expressions",
+        "title": "Function Expression",
+        "url": "/function-expressions",
+        "applied": false
+      },
+      {
+        "id": "arrow-functions",
+        "title": "Стрелочные функции",
+        "url": "/arrow-functions",
+        "applied": false
+      }
+    ]
+  },
+  "objects": {
+    "title": "Объекты",
+    "articles": [
+      {
+        "id": "object",
+        "title": "Объекты",
+        "url": "/object",
+        "applied": false
+      },
+      {
+        "id": "object-copy",
+        "title": "Копирование объектов",
+        "url": "/object-copy",
+        "applied": false
+      }
+    ]
+  },
+  "advanced": {
+    "title": "Продвинутые темы",
+    "articles": [
+      {
+        "id": "closure",
+        "title": "Замыкания",
+        "url": "/closure",
+        "applied": false
+      },
+      {
+        "id": "recursion",
+        "title": "Рекурсия",
+        "url": "/recursion",
+        "applied": false
+      },
+      {
+        "id": "rest-parameters",
+        "title": "Остаточные параметры",
+        "url": "/rest-parameters",
+        "applied": false
+      },
+      {
+        "id": "spread-syntax",
+        "title": "Spread синтаксис",
+        "url": "/spread-syntax",
+        "applied": false
+      }
+    ]
+  },
+  "events": {
+    "title": "События и DOM",
+    "articles": [
+      {
+        "id": "events",
+        "title": "Введение в события",
+        "url": "/events",
+        "applied": true,
+        "status": "applied",
+        "projects": [
+          "js-calculator"
+        ],
+        "commits": [
+          "c54b388"
+        ]
+      },
+      {
+        "id": "event-details",
+        "title": "Детали событий",
+        "url": "/event-details",
+        "applied": false
+      },
+      {
+        "id": "forms-controls",
+        "title": "Формы и элементы управления",
+        "url": "/forms-controls",
+        "applied": false
+      }
+    ]
+  },
+  "arrays": {
+    "title": "Массивы",
+    "articles": [
+      {
+        "id": "array",
+        "title": "Массивы",
+        "url": "/array",
+        "applied": false
+      },
+      {
+        "id": "array-methods",
+        "title": "Методы массивов",
+        "url": "/array-methods",
+        "applied": false
+      }
+    ]
+  }
+}

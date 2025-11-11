@@ -107,8 +107,12 @@
         "applied": true,
         "status": "applied",
         "applications": {
-          "js-calculator": ["c54b388"],
-          "js-knowledge-tracker": ["abc123"]
+          "js-calculator": [
+            "c54b388"
+          ],
+          "js-knowledge-tracker": [
+            "abc123"
+          ]
         }
       },
       {

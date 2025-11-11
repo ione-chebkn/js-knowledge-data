@@ -106,16 +106,9 @@
         "url": "/events",
         "applied": true,
         "status": "applied",
-        "projects": [
-          "js-calculator"
-        ],
-        "commits": [
-          "c54b388"
-        ],
         "applications": {
-          "js-knowledge-tracker": [
-            "abc123"
-          ]
+          "js-calculator": ["c54b388"],
+          "js-knowledge-tracker": ["abc123"]
         }
       },
       {

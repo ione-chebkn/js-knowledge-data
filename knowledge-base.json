@@ -111,7 +111,12 @@
         ],
         "commits": [
           "c54b388"
-        ]
+        ],
+        "applications": {
+          "js-knowledge-tracker": [
+            "abc123"
+          ]
+        }
       },
       {
         "id": "event-details",

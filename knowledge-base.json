@@ -18,7 +18,13 @@
         "id": "operators",
         "title": "Операторы",
         "url": "/operators",
-        "applied": false
+        "applied": true,
+        "status": "applied",
+        "applications": {
+          "js-calculator": [
+            "5d1b4b3"
+          ]
+        }
       },
       {
         "id": "comparison",

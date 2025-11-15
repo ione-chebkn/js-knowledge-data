@@ -1,0 +1,44 @@
+{
+  "dom-attributes-and-properties": {
+    "id": "dom-attributes-and-properties",
+    "title": "DOM-свойства и атрибуты",
+    "url": "https://learn.javascript.ru/dom-attributes-and-properties", 
+    "level": "concept",
+    
+    "sections": [
+      {
+        "id": "dom-svoystva",
+        "title": "DOM-свойства",
+        "applications": [] 
+      },
+      {
+        "id": "html-atributy",
+        "title": "HTML-атрибуты", 
+        "applications": []
+      },
+      {
+        "id": "nestandartnye-atributy-dataset",
+        "title": "Нестандартные атрибуты, dataset",
+        "applications": [
+          {
+            "project": "js-calculator",
+            "commit": "c54b388",
+            "commitUrl": "https://github.com/ione-chebkn/js-calculator/commit/c54b388"
+          }
+        ]
+      }
+    ],
+    
+    "progress": 33
+  },
+  
+  "variables": {
+    "id": "variables",
+    "title": "Переменные", 
+    "url": "https://learn.javascript.ru/variables",
+    "level": "syntax",
+    
+    "sections": [],  
+    "progress": 100 
+  }
+}

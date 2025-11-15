@@ -1,154 +1,5332 @@
 {
-  "basics": {
+  "getting-started": {
+    "title": "Введение",
+    "articles": [
+      {
+        "id": "intro",
+        "title": "Введение в JavaScript",
+        "url": "https://learn.javascript.ru/intro",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "manuals-specifications",
+        "title": "Справочники и спецификации",
+        "url": "https://learn.javascript.ru/manuals-specifications",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "code-editors",
+        "title": "Редакторы кода",
+        "url": "https://learn.javascript.ru/code-editors",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "devtools",
+        "title": "Консоль разработчика",
+        "url": "https://learn.javascript.ru/devtools",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      }
+    ]
+  },
+  "first-steps": {
     "title": "Основы JavaScript",
     "articles": [
       {
-        "id": "variables",
-        "title": "Переменные",
-        "url": "/variables",
-        "applied": false
+        "id": "hello-world",
+        "title": "Привет, мир!",
+        "url": "https://learn.javascript.ru/hello-world",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
       },
       {
-        "id": "data-types",
+        "id": "structure",
+        "title": "Структура кода",
+        "url": "https://learn.javascript.ru/structure",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "strict-mode",
+        "title": "Строгий режим — \"use strict\"",
+        "url": "https://learn.javascript.ru/strict-mode",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "variables",
+        "title": "Переменные",
+        "url": "https://learn.javascript.ru/variables",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "types",
         "title": "Типы данных",
-        "url": "/types",
-        "applied": false
+        "url": "https://learn.javascript.ru/types",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "alert-prompt-confirm",
+        "title": "Взаимодействие: alert, prompt, confirm",
+        "url": "https://learn.javascript.ru/alert-prompt-confirm",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "alert",
+            "title": "alert",
+            "url": "https://learn.javascript.ru/alert-prompt-confirm#alert",
+            "applications": []
+          },
+          {
+            "id": "prompt",
+            "title": "prompt",
+            "url": "https://learn.javascript.ru/alert-prompt-confirm#prompt",
+            "applications": []
+          },
+          {
+            "id": "confirm",
+            "title": "confirm",
+            "url": "https://learn.javascript.ru/alert-prompt-confirm#confirm",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "type-conversions",
+        "title": "Преобразование типов",
+        "url": "https://learn.javascript.ru/type-conversions",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
       },
       {
         "id": "operators",
-        "title": "Операторы",
-        "url": "/operators",
-        "applied": true,
-        "status": "applied",
-        "applications": {
-          "js-calculator": [
-            "5d1b4b3"
-          ]
-        }
+        "title": "Базовые операторы, математика",
+        "url": "https://learn.javascript.ru/operators",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
       },
       {
         "id": "comparison",
         "title": "Операторы сравнения",
-        "url": "/comparison",
-        "applied": false
-      }
-    ]
-  },
-  "functions": {
-    "title": "Функции",
-    "articles": [
+        "url": "https://learn.javascript.ru/comparison",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "ifelse",
+        "title": "Условное ветвление: if, '?'",
+        "url": "https://learn.javascript.ru/ifelse",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "logical-operators",
+        "title": "Логические операторы",
+        "url": "https://learn.javascript.ru/logical-operators",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "nullish-operators",
+        "title": "Операторы нулевого слияния и присваивания: '??', '??='",
+        "url": "https://learn.javascript.ru/nullish-operators",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "while-for",
+        "title": "Циклы while и for",
+        "url": "https://learn.javascript.ru/while-for",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "switch",
+        "title": "Конструкция \"switch\"",
+        "url": "https://learn.javascript.ru/switch",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
       {
         "id": "function-basics",
         "title": "Функции",
-        "url": "/function-basics",
-        "applied": false
+        "url": "https://learn.javascript.ru/function-basics",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
       },
       {
         "id": "function-expressions",
         "title": "Function Expression",
-        "url": "/function-expressions",
-        "applied": false
+        "url": "https://learn.javascript.ru/function-expressions",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
       },
       {
-        "id": "arrow-functions",
-        "title": "Стрелочные функции",
-        "url": "/arrow-functions",
-        "applied": false
+        "id": "arrow-functions-basics",
+        "title": "Стрелочные функции, основы",
+        "url": "https://learn.javascript.ru/arrow-functions-basics",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "javascript-specials",
+        "title": "Особенности JavaScript",
+        "url": "https://learn.javascript.ru/javascript-specials",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
       }
     ]
   },
-  "objects": {
-    "title": "Объекты",
+  "code-quality": {
+    "title": "Качество кода",
+    "articles": [
+      {
+        "id": "debugging-chrome",
+        "title": "Отладка в браузере",
+        "url": "https://learn.javascript.ru/debugging-chrome",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "coding-style",
+        "title": "Советы по стилю кода",
+        "url": "https://learn.javascript.ru/coding-style",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "comments",
+        "title": "Комментарии",
+        "url": "https://learn.javascript.ru/comments",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "ninja-code",
+        "title": "Ниндзя-код",
+        "url": "https://learn.javascript.ru/ninja-code",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "testing-mocha",
+        "title": "Автоматическое тестирование c использованием фреймворка Mocha",
+        "url": "https://learn.javascript.ru/testing-mocha",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "zachem-nam-nuzhny-testy",
+            "title": "Зачем нам нужны тесты?",
+            "url": "https://learn.javascript.ru/testing-mocha#zachem-nam-nuzhny-testy",
+            "applications": []
+          },
+          {
+            "id": "behavior-driven-development-bdd",
+            "title": "Behavior Driven Development (BDD)",
+            "url": "https://learn.javascript.ru/testing-mocha#behavior-driven-development-bdd",
+            "applications": []
+          },
+          {
+            "id": "razrabotka-funktsii-vozvedeniya-v-stepen--pow-spetsifikatsiya",
+            "title": "Разработка функции возведения в степень — «pow»: спецификация",
+            "url": "https://learn.javascript.ru/testing-mocha#razrabotka-funktsii-vozvedeniya-v-stepen--pow-spetsifikatsiya",
+            "applications": []
+          },
+          {
+            "id": "protsess-razrabotki",
+            "title": "Процесс разработки",
+            "url": "https://learn.javascript.ru/testing-mocha#protsess-razrabotki",
+            "applications": []
+          },
+          {
+            "id": "spetsifikatsiya-v-deystvii",
+            "title": "Спецификация в действии",
+            "url": "https://learn.javascript.ru/testing-mocha#spetsifikatsiya-v-deystvii",
+            "applications": []
+          },
+          {
+            "id": "nachalnaya-realizatsiya",
+            "title": "Начальная реализация",
+            "url": "https://learn.javascript.ru/testing-mocha#nachalnaya-realizatsiya",
+            "applications": []
+          },
+          {
+            "id": "uluchshaem-spetsifikatsiyu",
+            "title": "Улучшаем спецификацию",
+            "url": "https://learn.javascript.ru/testing-mocha#uluchshaem-spetsifikatsiyu",
+            "applications": []
+          },
+          {
+            "id": "uluchshaem-realizatsiyu",
+            "title": "Улучшаем реализацию",
+            "url": "https://learn.javascript.ru/testing-mocha#uluchshaem-realizatsiyu",
+            "applications": []
+          },
+          {
+            "id": "vlozhennye-bloki-describe",
+            "title": "Вложенные блоки describe",
+            "url": "https://learn.javascript.ru/testing-mocha#vlozhennye-bloki-describe",
+            "applications": []
+          },
+          {
+            "id": "rasshirenie-spetsifikatsii",
+            "title": "Расширение спецификации",
+            "url": "https://learn.javascript.ru/testing-mocha#rasshirenie-spetsifikatsii",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "polyfills",
+        "title": "Полифилы",
+        "url": "https://learn.javascript.ru/polyfills",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "babel",
+            "title": "Babel",
+            "url": "https://learn.javascript.ru/polyfills#babel",
+            "applications": []
+          },
+          {
+            "id": "primery-v-uchebnike",
+            "title": "Примеры в учебнике",
+            "url": "https://learn.javascript.ru/polyfills#primery-v-uchebnike",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "object-basics": {
+    "title": "Объекты: основы",
     "articles": [
       {
         "id": "object",
         "title": "Объекты",
-        "url": "/object",
-        "applied": false
+        "url": "https://learn.javascript.ru/object",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "literaly-i-svoystva",
+            "title": "Литералы и свойства",
+            "url": "https://learn.javascript.ru/object#literaly-i-svoystva",
+            "applications": []
+          },
+          {
+            "id": "kvadratnye-skobki",
+            "title": "Квадратные скобки",
+            "url": "https://learn.javascript.ru/object#kvadratnye-skobki",
+            "applications": []
+          },
+          {
+            "id": "svoystvo-iz-peremennoy",
+            "title": "Свойство из переменной",
+            "url": "https://learn.javascript.ru/object#svoystvo-iz-peremennoy",
+            "applications": []
+          },
+          {
+            "id": "ogranicheniya-na-imena-svoystv",
+            "title": "Ограничения на имена свойств",
+            "url": "https://learn.javascript.ru/object#ogranicheniya-na-imena-svoystv",
+            "applications": []
+          },
+          {
+            "id": "proverka-suschestvovaniya-svoystva-operator-in",
+            "title": "Проверка существования свойства, оператор «in»",
+            "url": "https://learn.javascript.ru/object#proverka-suschestvovaniya-svoystva-operator-in",
+            "applications": []
+          },
+          {
+            "id": "forin",
+            "title": "Цикл \"for..in\"",
+            "url": "https://learn.javascript.ru/object#forin",
+            "applications": []
+          }
+        ],
+        "progress": 0
       },
       {
         "id": "object-copy",
-        "title": "Копирование объектов",
-        "url": "/object-copy",
-        "applied": false
+        "title": "Копирование объектов и ссылки",
+        "url": "https://learn.javascript.ru/object-copy",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sravnenie-po-ssylke",
+            "title": "Сравнение по ссылке",
+            "url": "https://learn.javascript.ru/object-copy#sravnenie-po-ssylke",
+            "applications": []
+          },
+          {
+            "id": "cloning-and-merging-object-assign",
+            "title": "Клонирование и объединение, Object.assign",
+            "url": "https://learn.javascript.ru/object-copy#cloning-and-merging-object-assign",
+            "applications": []
+          },
+          {
+            "id": "vlozhennoe-klonirovanie",
+            "title": "Вложенное клонирование",
+            "url": "https://learn.javascript.ru/object-copy#vlozhennoe-klonirovanie",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "garbage-collection",
+        "title": "Сборка мусора",
+        "url": "https://learn.javascript.ru/garbage-collection",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "dostizhimost",
+            "title": "Достижимость",
+            "url": "https://learn.javascript.ru/garbage-collection#dostizhimost",
+            "applications": []
+          },
+          {
+            "id": "prostoy-primer",
+            "title": "Простой пример",
+            "url": "https://learn.javascript.ru/garbage-collection#prostoy-primer",
+            "applications": []
+          },
+          {
+            "id": "dve-ssylki",
+            "title": "Две ссылки",
+            "url": "https://learn.javascript.ru/garbage-collection#dve-ssylki",
+            "applications": []
+          },
+          {
+            "id": "vzaimosvyazannye-obekty",
+            "title": "Взаимосвязанные объекты",
+            "url": "https://learn.javascript.ru/garbage-collection#vzaimosvyazannye-obekty",
+            "applications": []
+          },
+          {
+            "id": "nedostizhimyy-ostrov",
+            "title": "Недостижимый «остров»",
+            "url": "https://learn.javascript.ru/garbage-collection#nedostizhimyy-ostrov",
+            "applications": []
+          },
+          {
+            "id": "vnutrennie-algoritmy",
+            "title": "Внутренние алгоритмы",
+            "url": "https://learn.javascript.ru/garbage-collection#vnutrennie-algoritmy",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "object-methods",
+        "title": "Методы объекта, \"this\"",
+        "url": "https://learn.javascript.ru/object-methods",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primery-metodov",
+            "title": "Примеры методов",
+            "url": "https://learn.javascript.ru/object-methods#primery-metodov",
+            "applications": []
+          },
+          {
+            "id": "klyuchevoe-slovo-this-v-metodah",
+            "title": "Ключевое слово «this» в методах",
+            "url": "https://learn.javascript.ru/object-methods#klyuchevoe-slovo-this-v-metodah",
+            "applications": []
+          },
+          {
+            "id": "this-ne-yavlyaetsya-fiksirovannym",
+            "title": "«this» не является фиксированным",
+            "url": "https://learn.javascript.ru/object-methods#this-ne-yavlyaetsya-fiksirovannym",
+            "applications": []
+          },
+          {
+            "id": "u-strelochnyh-funktsiy-net-this",
+            "title": "У стрелочных функций нет «this»",
+            "url": "https://learn.javascript.ru/object-methods#u-strelochnyh-funktsiy-net-this",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "constructor-new",
+        "title": "Конструктор, оператор \"new\"",
+        "url": "https://learn.javascript.ru/constructor-new",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "funktsiya-konstruktor",
+            "title": "Функция-конструктор",
+            "url": "https://learn.javascript.ru/constructor-new#funktsiya-konstruktor",
+            "applications": []
+          },
+          {
+            "id": "proverka-na-vyzov-v-rezhime-konstruktora-new-target",
+            "title": "Проверка на вызов в режиме конструктора: new.target",
+            "url": "https://learn.javascript.ru/constructor-new#proverka-na-vyzov-v-rezhime-konstruktora-new-target",
+            "applications": []
+          },
+          {
+            "id": "vozvrat-znacheniya-iz-konstruktora-return",
+            "title": "Возврат значения из конструктора, return",
+            "url": "https://learn.javascript.ru/constructor-new#vozvrat-znacheniya-iz-konstruktora-return",
+            "applications": []
+          },
+          {
+            "id": "sozdanie-metodov-v-konstruktore",
+            "title": "Создание методов в конструкторе",
+            "url": "https://learn.javascript.ru/constructor-new#sozdanie-metodov-v-konstruktore",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "optional-chaining",
+        "title": "Опциональная цепочка '?.'",
+        "url": "https://learn.javascript.ru/optional-chaining",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "problema-nesuschestvuyuschego-svoystva",
+            "title": "Проблема «несуществующего свойства»",
+            "url": "https://learn.javascript.ru/optional-chaining#problema-nesuschestvuyuschego-svoystva",
+            "applications": []
+          },
+          {
+            "id": "optsionalnaya-tsepochka",
+            "title": "Опциональная цепочка",
+            "url": "https://learn.javascript.ru/optional-chaining#optsionalnaya-tsepochka",
+            "applications": []
+          },
+          {
+            "id": "sokraschyonnoe-vychislenie",
+            "title": "Сокращённое вычисление",
+            "url": "https://learn.javascript.ru/optional-chaining#sokraschyonnoe-vychislenie",
+            "applications": []
+          },
+          {
+            "id": "drugie-varianty-primeneniya",
+            "title": "Другие варианты применения: ?.(), ?.[]",
+            "url": "https://learn.javascript.ru/optional-chaining#drugie-varianty-primeneniya",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "symbol",
+        "title": "Тип данных Symbol",
+        "url": "https://learn.javascript.ru/symbol",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "simvoly",
+            "title": "Символы",
+            "url": "https://learn.javascript.ru/symbol#simvoly",
+            "applications": []
+          },
+          {
+            "id": "skrytye-svoystva",
+            "title": "«Скрытые» свойства",
+            "url": "https://learn.javascript.ru/symbol#skrytye-svoystva",
+            "applications": []
+          },
+          {
+            "id": "globalnye-simvoly",
+            "title": "Глобальные символы",
+            "url": "https://learn.javascript.ru/symbol#globalnye-simvoly",
+            "applications": []
+          },
+          {
+            "id": "sistemnye-simvoly",
+            "title": "Системные символы",
+            "url": "https://learn.javascript.ru/symbol#sistemnye-simvoly",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "object-toprimitive",
+        "title": "Преобразование объектов в примитивы",
+        "url": "https://learn.javascript.ru/object-toprimitive",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "pravila-preobrazovaniya",
+            "title": "Правила преобразования",
+            "url": "https://learn.javascript.ru/object-toprimitive#pravila-preobrazovaniya",
+            "applications": []
+          },
+          {
+            "id": "hinty",
+            "title": "Хинты",
+            "url": "https://learn.javascript.ru/object-toprimitive#hinty",
+            "applications": []
+          },
+          {
+            "id": "symbol-toprimitive",
+            "title": "Symbol.toPrimitive",
+            "url": "https://learn.javascript.ru/object-toprimitive#symbol-toprimitive",
+            "applications": []
+          },
+          {
+            "id": "tostring-valueof",
+            "title": "toString/valueOf",
+            "url": "https://learn.javascript.ru/object-toprimitive#tostring-valueof",
+            "applications": []
+          },
+          {
+            "id": "dalneyshie-preobrazovaniya",
+            "title": "Дальнейшие преобразования",
+            "url": "https://learn.javascript.ru/object-toprimitive#dalneyshie-preobrazovaniya",
+            "applications": []
+          }
+        ],
+        "progress": 0
       }
     ]
   },
-  "advanced": {
-    "title": "Продвинутые темы",
+  "data-types": {
+    "title": "Типы данных",
     "articles": [
       {
-        "id": "closure",
-        "title": "Замыкания",
-        "url": "/closure",
-        "applied": false
+        "id": "primitives-methods",
+        "title": "Методы примитивов",
+        "url": "https://learn.javascript.ru/primitives-methods",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primitiv-kak-obekt",
+            "title": "Примитив как объект",
+            "url": "https://learn.javascript.ru/primitives-methods#primitiv-kak-obekt",
+            "applications": []
+          }
+        ],
+        "progress": 0
       },
       {
-        "id": "recursion",
-        "title": "Рекурсия",
-        "url": "/recursion",
-        "applied": false
+        "id": "number",
+        "title": "Числа",
+        "url": "https://learn.javascript.ru/number",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sposoby-zapisi-chisla",
+            "title": "Способы записи числа",
+            "url": "https://learn.javascript.ru/number#sposoby-zapisi-chisla",
+            "applications": []
+          },
+          {
+            "id": "tostring-base",
+            "title": "toString(base)",
+            "url": "https://learn.javascript.ru/number#tostring-base",
+            "applications": []
+          },
+          {
+            "id": "okruglenie",
+            "title": "Округление",
+            "url": "https://learn.javascript.ru/number#okruglenie",
+            "applications": []
+          },
+          {
+            "id": "netochnye-vychisleniya",
+            "title": "Неточные вычисления",
+            "url": "https://learn.javascript.ru/number#netochnye-vychisleniya",
+            "applications": []
+          },
+          {
+            "id": "proverka-isfinite-i-isnan",
+            "title": "Проверка: isFinite и isNaN",
+            "url": "https://learn.javascript.ru/number#proverka-isfinite-i-isnan",
+            "applications": []
+          },
+          {
+            "id": "parseint-i-parsefloat",
+            "title": "parseInt и parseFloat",
+            "url": "https://learn.javascript.ru/number#parseint-i-parsefloat",
+            "applications": []
+          },
+          {
+            "id": "drugie-matematicheskie-funktsii",
+            "title": "Другие математические функции",
+            "url": "https://learn.javascript.ru/number#drugie-matematicheskie-funktsii",
+            "applications": []
+          }
+        ],
+        "progress": 0
       },
       {
-        "id": "rest-parameters",
-        "title": "Остаточные параметры",
-        "url": "/rest-parameters",
-        "applied": false
+        "id": "string",
+        "title": "Строки",
+        "url": "https://learn.javascript.ru/string",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
       },
-      {
-        "id": "spread-syntax",
-        "title": "Spread синтаксис",
-        "url": "/spread-syntax",
-        "applied": false
-      }
-    ]
-  },
-  "events": {
-    "title": "События и DOM",
-    "articles": [
-      {
-        "id": "events",
-        "title": "Введение в события",
-        "url": "/events",
-        "applied": true,
-        "status": "applied",
-        "applications": {
-          "js-calculator": [
-            "c54b388"
-          ],
-          "js-knowledge-tracker": [
-            "abc123"
-          ]
-        }
-      },
-      {
-        "id": "event-details",
-        "title": "Детали событий",
-        "url": "/event-details",
-        "applied": false
-      },
-      {
-        "id": "forms-controls",
-        "title": "Формы и элементы управления",
-        "url": "/forms-controls",
-        "applied": false
-      }
-    ]
-  },
-  "arrays": {
-    "title": "Массивы",
-    "articles": [
       {
         "id": "array",
         "title": "Массивы",
-        "url": "/array",
-        "applied": false
+        "url": "https://learn.javascript.ru/array",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "obyavlenie",
+            "title": "Объявление",
+            "url": "https://learn.javascript.ru/array#obyavlenie",
+            "applications": []
+          },
+          {
+            "id": "poluchenie-poslednih-elementov-pri-pomoschi-at",
+            "title": "Получение последних элементов при помощи «at»",
+            "url": "https://learn.javascript.ru/array#poluchenie-poslednih-elementov-pri-pomoschi-at",
+            "applications": []
+          },
+          {
+            "id": "metody-pop-push-shift-unshift",
+            "title": "Методы pop/push, shift/unshift",
+            "url": "https://learn.javascript.ru/array#metody-pop-push-shift-unshift",
+            "applications": []
+          },
+          {
+            "id": "vnutrennee-ustroystvo-massiva",
+            "title": "Внутреннее устройство массива",
+            "url": "https://learn.javascript.ru/array#vnutrennee-ustroystvo-massiva",
+            "applications": []
+          },
+          {
+            "id": "effektivnost",
+            "title": "Эффективность",
+            "url": "https://learn.javascript.ru/array#effektivnost",
+            "applications": []
+          },
+          {
+            "id": "perebor-elementov",
+            "title": "Перебор элементов",
+            "url": "https://learn.javascript.ru/array#perebor-elementov",
+            "applications": []
+          },
+          {
+            "id": "nemnogo-o-length",
+            "title": "Немного о «length»",
+            "url": "https://learn.javascript.ru/array#nemnogo-o-length",
+            "applications": []
+          },
+          {
+            "id": "new-array",
+            "title": "new Array()",
+            "url": "https://learn.javascript.ru/array#new-array",
+            "applications": []
+          },
+          {
+            "id": "mnogomernye-massivy",
+            "title": "Многомерные массивы",
+            "url": "https://learn.javascript.ru/array#mnogomernye-massivy",
+            "applications": []
+          },
+          {
+            "id": "tostring",
+            "title": "toString",
+            "url": "https://learn.javascript.ru/array#tostring",
+            "applications": []
+          },
+          {
+            "id": "ne-sravnivayte-massivy-pri-pomoschi",
+            "title": "Не сравнивайте массивы при помощи ==",
+            "url": "https://learn.javascript.ru/array#ne-sravnivayte-massivy-pri-pomoschi",
+            "applications": []
+          }
+        ],
+        "progress": 0
       },
       {
         "id": "array-methods",
         "title": "Методы массивов",
-        "url": "/array-methods",
-        "applied": false
+        "url": "https://learn.javascript.ru/array-methods",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "iterable",
+        "title": "Перебираемые объекты",
+        "url": "https://learn.javascript.ru/iterable",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "map-set",
+        "title": "Map и Set",
+        "url": "https://learn.javascript.ru/map-set",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "weakmap-weakset",
+        "title": "WeakMap и WeakSet",
+        "url": "https://learn.javascript.ru/weakmap-weakset",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "keys-values-entries",
+        "title": "Object.keys, values, entries",
+        "url": "https://learn.javascript.ru/keys-values-entries",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "object-keys-values-entries",
+            "title": "Object.keys, values, entries",
+            "url": "https://learn.javascript.ru/keys-values-entries#object-keys-values-entries",
+            "applications": []
+          },
+          {
+            "id": "transformatsii-obekta",
+            "title": "Трансформации объекта",
+            "url": "https://learn.javascript.ru/keys-values-entries#transformatsii-obekta",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "destructuring-assignment",
+        "title": "Деструктурирующее присваивание",
+        "url": "https://learn.javascript.ru/destructuring-assignment",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "destrukturizatsiya-massiva",
+            "title": "Деструктуризация массива",
+            "url": "https://learn.javascript.ru/destructuring-assignment#destrukturizatsiya-massiva",
+            "applications": []
+          },
+          {
+            "id": "destrukturizatsiya-obekta",
+            "title": "Деструктуризация объекта",
+            "url": "https://learn.javascript.ru/destructuring-assignment#destrukturizatsiya-obekta",
+            "applications": []
+          },
+          {
+            "id": "vlozhennaya-destrukturizatsiya",
+            "title": "Вложенная деструктуризация",
+            "url": "https://learn.javascript.ru/destructuring-assignment#vlozhennaya-destrukturizatsiya",
+            "applications": []
+          },
+          {
+            "id": "umnye-parametry-funktsiy",
+            "title": "Умные параметры функций",
+            "url": "https://learn.javascript.ru/destructuring-assignment#umnye-parametry-funktsiy",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "date",
+        "title": "Дата и время",
+        "url": "https://learn.javascript.ru/date",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sozdanie",
+            "title": "Создание",
+            "url": "https://learn.javascript.ru/date#sozdanie",
+            "applications": []
+          },
+          {
+            "id": "poluchenie-komponentov-daty",
+            "title": "Получение компонентов даты",
+            "url": "https://learn.javascript.ru/date#poluchenie-komponentov-daty",
+            "applications": []
+          },
+          {
+            "id": "ustanovka-komponentov-daty",
+            "title": "Установка компонентов даты",
+            "url": "https://learn.javascript.ru/date#ustanovka-komponentov-daty",
+            "applications": []
+          },
+          {
+            "id": "avtoispravlenie-daty",
+            "title": "Автоисправление даты",
+            "url": "https://learn.javascript.ru/date#avtoispravlenie-daty",
+            "applications": []
+          },
+          {
+            "id": "preobrazovanie-k-chislu-raznost-dat",
+            "title": "Преобразование к числу, разность дат",
+            "url": "https://learn.javascript.ru/date#preobrazovanie-k-chislu-raznost-dat",
+            "applications": []
+          },
+          {
+            "id": "date-now",
+            "title": "Date.now()",
+            "url": "https://learn.javascript.ru/date#date-now",
+            "applications": []
+          },
+          {
+            "id": "benchmarking",
+            "title": "Бенчмаркинг",
+            "url": "https://learn.javascript.ru/date#benchmarking",
+            "applications": []
+          },
+          {
+            "id": "razbor-stroki-s-datoy",
+            "title": "Разбор строки с датой",
+            "url": "https://learn.javascript.ru/date#razbor-stroki-s-datoy",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "json",
+        "title": "Формат JSON, метод toJSON",
+        "url": "https://learn.javascript.ru/json",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      }
+    ]
+  },
+  "advanced-functions": {
+    "title": "Продвинутая работа с функциями",
+    "articles": [
+      {
+        "id": "recursion",
+        "title": "Рекурсия и стек",
+        "url": "https://learn.javascript.ru/recursion",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "rest-parameters-spread-operator",
+        "title": "Остаточные параметры и оператор расширения",
+        "url": "https://learn.javascript.ru/rest-parameters-spread-operator",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "closure",
+        "title": "Область видимости переменных, замыкание",
+        "url": "https://learn.javascript.ru/closure",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "bloki-koda",
+            "title": "Блоки кода",
+            "url": "https://learn.javascript.ru/closure#bloki-koda",
+            "applications": []
+          },
+          {
+            "id": "vlozhennye-funktsii",
+            "title": "Вложенные функции",
+            "url": "https://learn.javascript.ru/closure#vlozhennye-funktsii",
+            "applications": []
+          },
+          {
+            "id": "leksicheskoe-okruzhenie",
+            "title": "Лексическое окружение",
+            "url": "https://learn.javascript.ru/closure#leksicheskoe-okruzhenie",
+            "applications": []
+          },
+          {
+            "id": "sborka-musora",
+            "title": "Сборка мусора",
+            "url": "https://learn.javascript.ru/closure#sborka-musora",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "var",
+        "title": "Устаревшее ключевое слово \"var\"",
+        "url": "https://learn.javascript.ru/var",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "global-object",
+        "title": "Глобальный объект",
+        "url": "https://learn.javascript.ru/global-object",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ispolzovanie-dlya-polifilov",
+            "title": "Использование для полифилов",
+            "url": "https://learn.javascript.ru/global-object#ispolzovanie-dlya-polifilov",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "function-object",
+        "title": "Объект функции, NFE",
+        "url": "https://learn.javascript.ru/function-object",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "new-function",
+        "title": "Синтаксис \"new Function\"",
+        "url": "https://learn.javascript.ru/new-function",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "settimeout-setinterval",
+        "title": "Планирование: setTimeout и setInterval",
+        "url": "https://learn.javascript.ru/settimeout-setinterval",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "settimeout",
+            "title": "setTimeout",
+            "url": "https://learn.javascript.ru/settimeout-setinterval#settimeout",
+            "applications": []
+          },
+          {
+            "id": "setinterval",
+            "title": "setInterval",
+            "url": "https://learn.javascript.ru/settimeout-setinterval#setinterval",
+            "applications": []
+          },
+          {
+            "id": "vlozhennyy-settimeout",
+            "title": "Вложенный setTimeout",
+            "url": "https://learn.javascript.ru/settimeout-setinterval#vlozhennyy-settimeout",
+            "applications": []
+          },
+          {
+            "id": "settimeout-s-nulevoy-zaderzhkoy",
+            "title": "setTimeout с нулевой задержкой",
+            "url": "https://learn.javascript.ru/settimeout-setinterval#settimeout-s-nulevoy-zaderzhkoy",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "call-apply-decorators",
+        "title": "Декораторы и переадресация вызова, call/apply",
+        "url": "https://learn.javascript.ru/call-apply-decorators",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "prozrachnoe-keshirovanie",
+            "title": "Прозрачное кеширование",
+            "url": "https://learn.javascript.ru/call-apply-decorators#prozrachnoe-keshirovanie",
+            "applications": []
+          },
+          {
+            "id": "primenenie-func-call-dlya-peredachi-konteksta",
+            "title": "Применение «func.call» для передачи контекста",
+            "url": "https://learn.javascript.ru/call-apply-decorators#primenenie-func-call-dlya-peredachi-konteksta",
+            "applications": []
+          },
+          {
+            "id": "perehodim-k-neskolkim-argumentam-s-func-apply",
+            "title": "Переходим к нескольким аргументам с «func.apply»",
+            "url": "https://learn.javascript.ru/call-apply-decorators#perehodim-k-neskolkim-argumentam-s-func-apply",
+            "applications": []
+          },
+          {
+            "id": "method-borrowing",
+            "title": "Заимствование метода",
+            "url": "https://learn.javascript.ru/call-apply-decorators#method-borrowing",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "bind",
+        "title": "Привязка контекста к функции",
+        "url": "https://learn.javascript.ru/bind",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "poterya-this",
+            "title": "Потеря «this»",
+            "url": "https://learn.javascript.ru/bind#poterya-this",
+            "applications": []
+          },
+          {
+            "id": "reshenie-1-sdelat-funktsiyu-obyortku",
+            "title": "Решение 1: сделать функцию-обёртку",
+            "url": "https://learn.javascript.ru/bind#reshenie-1-sdelat-funktsiyu-obyortku",
+            "applications": []
+          },
+          {
+            "id": "reshenie-2-privyazat-kontekst-s-pomoschyu-bind",
+            "title": "Решение 2: привязать контекст с помощью bind",
+            "url": "https://learn.javascript.ru/bind#reshenie-2-privyazat-kontekst-s-pomoschyu-bind",
+            "applications": []
+          },
+          {
+            "id": "chastichnoe-primenenie",
+            "title": "Частичное применение",
+            "url": "https://learn.javascript.ru/bind#chastichnoe-primenenie",
+            "applications": []
+          },
+          {
+            "id": "chastichnoe-primenenie-bez-konteksta",
+            "title": "Частичное применение без контекста",
+            "url": "https://learn.javascript.ru/bind#chastichnoe-primenenie-bez-konteksta",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "arrow-functions",
+        "title": "Повторяем стрелочные функции",
+        "url": "https://learn.javascript.ru/arrow-functions",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      }
+    ]
+  },
+  "object-properties": {
+    "title": "Свойства объекта, их конфигурация",
+    "articles": [
+      {
+        "id": "property-descriptors",
+        "title": "Флаги и дескрипторы свойств",
+        "url": "https://learn.javascript.ru/property-descriptors",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "flagi-svoystv",
+            "title": "Флаги свойств",
+            "url": "https://learn.javascript.ru/property-descriptors#flagi-svoystv",
+            "applications": []
+          },
+          {
+            "id": "tolko-dlya-chteniya",
+            "title": "Только для чтения",
+            "url": "https://learn.javascript.ru/property-descriptors#tolko-dlya-chteniya",
+            "applications": []
+          },
+          {
+            "id": "neperechislimoe-svoystvo",
+            "title": "Неперечислимое свойство",
+            "url": "https://learn.javascript.ru/property-descriptors#neperechislimoe-svoystvo",
+            "applications": []
+          },
+          {
+            "id": "nekonfiguriruemoe-svoystvo",
+            "title": "Неконфигурируемое свойство",
+            "url": "https://learn.javascript.ru/property-descriptors#nekonfiguriruemoe-svoystvo",
+            "applications": []
+          },
+          {
+            "id": "metod-object-defineproperties",
+            "title": "Метод Object.defineProperties",
+            "url": "https://learn.javascript.ru/property-descriptors#metod-object-defineproperties",
+            "applications": []
+          },
+          {
+            "id": "object-getownpropertydescriptors",
+            "title": "Object.getOwnPropertyDescriptors",
+            "url": "https://learn.javascript.ru/property-descriptors#object-getownpropertydescriptors",
+            "applications": []
+          },
+          {
+            "id": "globalnoe-zapechatyvanie-obekta",
+            "title": "Глобальное запечатывание объекта",
+            "url": "https://learn.javascript.ru/property-descriptors#globalnoe-zapechatyvanie-obekta",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "property-accessors",
+        "title": "Свойства - геттеры и сеттеры",
+        "url": "https://learn.javascript.ru/property-accessors",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "gettery-i-settery",
+            "title": "Геттеры и сеттеры",
+            "url": "https://learn.javascript.ru/property-accessors#gettery-i-settery",
+            "applications": []
+          },
+          {
+            "id": "deskriptory-svoystv-dostupa",
+            "title": "Дескрипторы свойств доступа",
+            "url": "https://learn.javascript.ru/property-accessors#deskriptory-svoystv-dostupa",
+            "applications": []
+          },
+          {
+            "id": "umnye-gettery-settery",
+            "title": "Умные геттеры/сеттеры",
+            "url": "https://learn.javascript.ru/property-accessors#umnye-gettery-settery",
+            "applications": []
+          },
+          {
+            "id": "ispolzovanie-dlya-sovmestimosti",
+            "title": "Использование для совместимости",
+            "url": "https://learn.javascript.ru/property-accessors#ispolzovanie-dlya-sovmestimosti",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "prototypes": {
+    "title": "Прототипы, наследование",
+    "articles": [
+      {
+        "id": "prototype-inheritance",
+        "title": "Прототипное наследование",
+        "url": "https://learn.javascript.ru/prototype-inheritance",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "prototype",
+            "title": "[[Prototype]]",
+            "url": "https://learn.javascript.ru/prototype-inheritance#prototype",
+            "applications": []
+          },
+          {
+            "id": "operatsiya-zapisi-ne-ispolzuet-prototip",
+            "title": "Операция записи не использует прототип",
+            "url": "https://learn.javascript.ru/prototype-inheritance#operatsiya-zapisi-ne-ispolzuet-prototip",
+            "applications": []
+          },
+          {
+            "id": "znachenie-this",
+            "title": "Значение «this»",
+            "url": "https://learn.javascript.ru/prototype-inheritance#znachenie-this",
+            "applications": []
+          },
+          {
+            "id": "tsikl-for-in",
+            "title": "Цикл for…in",
+            "url": "https://learn.javascript.ru/prototype-inheritance#tsikl-for-in",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "function-prototype",
+        "title": "F.prototype",
+        "url": "https://learn.javascript.ru/function-prototype",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "f-prototype-po-umolchaniyu-svoystvo-constructor",
+            "title": "F.prototype по умолчанию, свойство constructor",
+            "url": "https://learn.javascript.ru/function-prototype#f-prototype-po-umolchaniyu-svoystvo-constructor",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "native-prototypes",
+        "title": "Встроенные прототипы",
+        "url": "https://learn.javascript.ru/native-prototypes",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "object-prototype",
+            "title": "Object.prototype",
+            "url": "https://learn.javascript.ru/native-prototypes#object-prototype",
+            "applications": []
+          },
+          {
+            "id": "drugie-vstroennye-prototipy",
+            "title": "Другие встроенные прототипы",
+            "url": "https://learn.javascript.ru/native-prototypes#drugie-vstroennye-prototipy",
+            "applications": []
+          },
+          {
+            "id": "primitivy",
+            "title": "Примитивы",
+            "url": "https://learn.javascript.ru/native-prototypes#primitivy",
+            "applications": []
+          },
+          {
+            "id": "native-prototype-change",
+            "title": "Изменение встроенных прототипов",
+            "url": "https://learn.javascript.ru/native-prototypes#native-prototype-change",
+            "applications": []
+          },
+          {
+            "id": "zaimstvovanie-u-prototipov",
+            "title": "Заимствование у прототипов",
+            "url": "https://learn.javascript.ru/native-prototypes#zaimstvovanie-u-prototipov",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "prototype-methods",
+        "title": "Методы прототипов, объекты без свойства __proto__",
+        "url": "https://learn.javascript.ru/prototype-methods",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "kratkaya-istoriya",
+            "title": "Краткая история",
+            "url": "https://learn.javascript.ru/prototype-methods#kratkaya-istoriya",
+            "applications": []
+          },
+          {
+            "id": "very-plain",
+            "title": "\"Простейший\" объект",
+            "url": "https://learn.javascript.ru/prototype-methods#very-plain",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "classes": {
+    "title": "Классы",
+    "articles": [
+      {
+        "id": "class",
+        "title": "Класс: базовый синтаксис",
+        "url": "https://learn.javascript.ru/class",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sintaksis-class",
+            "title": "Синтаксис «class»",
+            "url": "https://learn.javascript.ru/class#sintaksis-class",
+            "applications": []
+          },
+          {
+            "id": "chto-takoe-klass",
+            "title": "Что такое класс?",
+            "url": "https://learn.javascript.ru/class#chto-takoe-klass",
+            "applications": []
+          },
+          {
+            "id": "ne-prosto-sintaksicheskiy-sahar",
+            "title": "Не просто синтаксический сахар",
+            "url": "https://learn.javascript.ru/class#ne-prosto-sintaksicheskiy-sahar",
+            "applications": []
+          },
+          {
+            "id": "class-expression",
+            "title": "Class Expression",
+            "url": "https://learn.javascript.ru/class#class-expression",
+            "applications": []
+          },
+          {
+            "id": "gettery-settery-drugie-sokrascheniya",
+            "title": "Геттеры/сеттеры, другие сокращения",
+            "url": "https://learn.javascript.ru/class#gettery-settery-drugie-sokrascheniya",
+            "applications": []
+          },
+          {
+            "id": "svoystva-klassov",
+            "title": "Свойства классов",
+            "url": "https://learn.javascript.ru/class#svoystva-klassov",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "class-inheritance",
+        "title": "Наследование классов",
+        "url": "https://learn.javascript.ru/class-inheritance",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "klyuchevoe-slovo-extends",
+            "title": "Ключевое слово «extends»",
+            "url": "https://learn.javascript.ru/class-inheritance#klyuchevoe-slovo-extends",
+            "applications": []
+          },
+          {
+            "id": "pereopredelenie-metodov",
+            "title": "Переопределение методов",
+            "url": "https://learn.javascript.ru/class-inheritance#pereopredelenie-metodov",
+            "applications": []
+          },
+          {
+            "id": "pereopredelenie-konstruktora",
+            "title": "Переопределение конструктора",
+            "url": "https://learn.javascript.ru/class-inheritance#pereopredelenie-konstruktora",
+            "applications": []
+          },
+          {
+            "id": "ustroystvo-super-homeobject",
+            "title": "Устройство super, [[HomeObject]]",
+            "url": "https://learn.javascript.ru/class-inheritance#ustroystvo-super-homeobject",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "static-properties-methods",
+        "title": "Статические свойства и методы",
+        "url": "https://learn.javascript.ru/static-properties-methods",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "staticheskie-svoystva",
+            "title": "Статические свойства",
+            "url": "https://learn.javascript.ru/static-properties-methods#staticheskie-svoystva",
+            "applications": []
+          },
+          {
+            "id": "statics-and-inheritance",
+            "title": "Наследование статических свойств и методов",
+            "url": "https://learn.javascript.ru/static-properties-methods#statics-and-inheritance",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "private-protected-properties-methods",
+        "title": "Приватные и защищённые методы и свойства",
+        "url": "https://learn.javascript.ru/private-protected-properties-methods",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primer-iz-realnoy-zhizni",
+            "title": "Пример из реальной жизни",
+            "url": "https://learn.javascript.ru/private-protected-properties-methods#primer-iz-realnoy-zhizni",
+            "applications": []
+          },
+          {
+            "id": "vnutrenniy-i-vneshniy-interfeysy",
+            "title": "Внутренний и внешний интерфейсы",
+            "url": "https://learn.javascript.ru/private-protected-properties-methods#vnutrenniy-i-vneshniy-interfeysy",
+            "applications": []
+          },
+          {
+            "id": "zaschischyonnoe-svoystvo-wateramount",
+            "title": "Защищённое свойство «waterAmount»",
+            "url": "https://learn.javascript.ru/private-protected-properties-methods#zaschischyonnoe-svoystvo-wateramount",
+            "applications": []
+          },
+          {
+            "id": "svoystvo-tolko-dlya-chteniya-power",
+            "title": "Свойство только для чтения «power»",
+            "url": "https://learn.javascript.ru/private-protected-properties-methods#svoystvo-tolko-dlya-chteniya-power",
+            "applications": []
+          },
+          {
+            "id": "privatnoe-svoystvo-waterlimit",
+            "title": "Приватное свойство «#waterLimit»",
+            "url": "https://learn.javascript.ru/private-protected-properties-methods#privatnoe-svoystvo-waterlimit",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "extend-natives",
+        "title": "Расширение встроенных классов",
+        "url": "https://learn.javascript.ru/extend-natives",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "otsutstvie-staticheskogo-nasledovaniya-vstroennyh-klassov",
+            "title": "Отсутствие статического наследования встроенных классов",
+            "url": "https://learn.javascript.ru/extend-natives#otsutstvie-staticheskogo-nasledovaniya-vstroennyh-klassov",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "instanceof",
+        "title": "Проверка класса: \"instanceof\"",
+        "url": "https://learn.javascript.ru/instanceof",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ref-instanceof",
+            "title": "Оператор instanceof",
+            "url": "https://learn.javascript.ru/instanceof#ref-instanceof",
+            "applications": []
+          },
+          {
+            "id": "bonus-object-prototype-tostring-vozvraschaet-tip",
+            "title": "Бонус: Object.prototype.toString возвращает тип",
+            "url": "https://learn.javascript.ru/instanceof#bonus-object-prototype-tostring-vozvraschaet-tip",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "mixins",
+        "title": "Примеси",
+        "url": "https://learn.javascript.ru/mixins",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primer-primesi",
+            "title": "Пример примеси",
+            "url": "https://learn.javascript.ru/mixins#primer-primesi",
+            "applications": []
+          },
+          {
+            "id": "eventmixin",
+            "title": "EventMixin",
+            "url": "https://learn.javascript.ru/mixins#eventmixin",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "error-handling": {
+    "title": "Обработка ошибок",
+    "articles": [
+      {
+        "id": "try-catch",
+        "title": "Обработка ошибок, \"try..catch\"",
+        "url": "https://learn.javascript.ru/try-catch",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "custom-errors",
+        "title": "Пользовательские ошибки, расширение Error",
+        "url": "https://learn.javascript.ru/custom-errors",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      }
+    ]
+  },
+  "async": {
+    "title": "Промисы, async/await",
+    "articles": [
+      {
+        "id": "callbacks",
+        "title": "Введение: колбэки",
+        "url": "https://learn.javascript.ru/callbacks",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "kolbek-v-kolbeke",
+            "title": "Колбэк в колбэке",
+            "url": "https://learn.javascript.ru/callbacks#kolbek-v-kolbeke",
+            "applications": []
+          },
+          {
+            "id": "perehvat-oshibok",
+            "title": "Перехват ошибок",
+            "url": "https://learn.javascript.ru/callbacks#perehvat-oshibok",
+            "applications": []
+          },
+          {
+            "id": "adskaya-piramida-vyzovov",
+            "title": "Адская пирамида вызовов",
+            "url": "https://learn.javascript.ru/callbacks#adskaya-piramida-vyzovov",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "promise-basics",
+        "title": "Промисы",
+        "url": "https://learn.javascript.ru/promise-basics",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "potrebiteli-then-catch",
+            "title": "Потребители: then, catch",
+            "url": "https://learn.javascript.ru/promise-basics#potrebiteli-then-catch",
+            "applications": []
+          },
+          {
+            "id": "ochistka-finally",
+            "title": "Очистка: finally",
+            "url": "https://learn.javascript.ru/promise-basics#ochistka-finally",
+            "applications": []
+          },
+          {
+            "id": "loadscript",
+            "title": "Пример: loadScript",
+            "url": "https://learn.javascript.ru/promise-basics#loadscript",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "promise-chaining",
+        "title": "Цепочка промисов",
+        "url": "https://learn.javascript.ru/promise-chaining",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "vozvraschaem-promisy",
+            "title": "Возвращаем промисы",
+            "url": "https://learn.javascript.ru/promise-chaining#vozvraschaem-promisy",
+            "applications": []
+          },
+          {
+            "id": "primer-loadscript",
+            "title": "Пример: loadScript",
+            "url": "https://learn.javascript.ru/promise-chaining#primer-loadscript",
+            "applications": []
+          },
+          {
+            "id": "bolee-slozhnyy-primer-fetch",
+            "title": "Более сложный пример: fetch",
+            "url": "https://learn.javascript.ru/promise-chaining#bolee-slozhnyy-primer-fetch",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "promise-error-handling",
+        "title": "Промисы: обработка ошибок",
+        "url": "https://learn.javascript.ru/promise-error-handling",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "neyavnyy-try-catch",
+            "title": "Неявный try…catch",
+            "url": "https://learn.javascript.ru/promise-error-handling#neyavnyy-try-catch",
+            "applications": []
+          },
+          {
+            "id": "probrasyvanie-oshibok",
+            "title": "Пробрасывание ошибок",
+            "url": "https://learn.javascript.ru/promise-error-handling#probrasyvanie-oshibok",
+            "applications": []
+          },
+          {
+            "id": "neobrabotannye-oshibki",
+            "title": "Необработанные ошибки",
+            "url": "https://learn.javascript.ru/promise-error-handling#neobrabotannye-oshibki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "promise-api",
+        "title": "Promise API",
+        "url": "https://learn.javascript.ru/promise-api",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "promise-all",
+            "title": "Promise.all",
+            "url": "https://learn.javascript.ru/promise-api#promise-all",
+            "applications": []
+          },
+          {
+            "id": "promise-allsettled",
+            "title": "Promise.allSettled",
+            "url": "https://learn.javascript.ru/promise-api#promise-allsettled",
+            "applications": []
+          },
+          {
+            "id": "promise-race",
+            "title": "Promise.race",
+            "url": "https://learn.javascript.ru/promise-api#promise-race",
+            "applications": []
+          },
+          {
+            "id": "promise-any",
+            "title": "Promise.any",
+            "url": "https://learn.javascript.ru/promise-api#promise-any",
+            "applications": []
+          },
+          {
+            "id": "promise-resolve-reject",
+            "title": "Promise.resolve/reject",
+            "url": "https://learn.javascript.ru/promise-api#promise-resolve-reject",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "promisify",
+        "title": "Промисификация",
+        "url": "https://learn.javascript.ru/promisify",
+        "level": "concept",
+        "sections": [],
+        "progress": 0
+      },
+      {
+        "id": "microtask-queue",
+        "title": "Микрозадачи",
+        "url": "https://learn.javascript.ru/microtask-queue",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ochered-mikrozadach",
+            "title": "Очередь микрозадач",
+            "url": "https://learn.javascript.ru/microtask-queue#ochered-mikrozadach",
+            "applications": []
+          },
+          {
+            "id": "neobrabotannye-oshibki",
+            "title": "Необработанные ошибки",
+            "url": "https://learn.javascript.ru/microtask-queue#neobrabotannye-oshibki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "async-await",
+        "title": "Async/await",
+        "url": "https://learn.javascript.ru/async-await",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "asinhronnye-funktsii",
+            "title": "Асинхронные функции",
+            "url": "https://learn.javascript.ru/async-await#asinhronnye-funktsii",
+            "applications": []
+          },
+          {
+            "id": "await",
+            "title": "Await",
+            "url": "https://learn.javascript.ru/async-await#await",
+            "applications": []
+          },
+          {
+            "id": "obrabotka-oshibok",
+            "title": "Обработка ошибок",
+            "url": "https://learn.javascript.ru/async-await#obrabotka-oshibok",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "generators-iterators": {
+    "title": "Генераторы, продвинутая итерация",
+    "articles": [
+      {
+        "id": "generators",
+        "title": "Генераторы",
+        "url": "https://learn.javascript.ru/generators",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "funktsiya-generator",
+            "title": "Функция-генератор",
+            "url": "https://learn.javascript.ru/generators#funktsiya-generator",
+            "applications": []
+          },
+          {
+            "id": "perebor-generatorov",
+            "title": "Перебор генераторов",
+            "url": "https://learn.javascript.ru/generators#perebor-generatorov",
+            "applications": []
+          },
+          {
+            "id": "ispolzovanie-generatorov-dlya-perebiraemyh-obektov",
+            "title": "Использование генераторов для перебираемых объектов",
+            "url": "https://learn.javascript.ru/generators#ispolzovanie-generatorov-dlya-perebiraemyh-obektov",
+            "applications": []
+          },
+          {
+            "id": "kompozitsiya-generatorov",
+            "title": "Композиция генераторов",
+            "url": "https://learn.javascript.ru/generators#kompozitsiya-generatorov",
+            "applications": []
+          },
+          {
+            "id": "yield--doroga-v-obe-storony",
+            "title": "yield – дорога в обе стороны",
+            "url": "https://learn.javascript.ru/generators#yield--doroga-v-obe-storony",
+            "applications": []
+          },
+          {
+            "id": "generator-throw",
+            "title": "generator.throw",
+            "url": "https://learn.javascript.ru/generators#generator-throw",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "async-iterators-generators",
+        "title": "Асинхронные итераторы и генераторы",
+        "url": "https://learn.javascript.ru/async-iterators-generators",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "asinhronnye-iteratory",
+            "title": "Асинхронные итераторы",
+            "url": "https://learn.javascript.ru/async-iterators-generators#asinhronnye-iteratory",
+            "applications": []
+          },
+          {
+            "id": "asinhronnye-generatory",
+            "title": "Асинхронные генераторы",
+            "url": "https://learn.javascript.ru/async-iterators-generators#asinhronnye-generatory",
+            "applications": []
+          },
+          {
+            "id": "asinhronno-perebiraemye-obekty",
+            "title": "Асинхронно перебираемые объекты",
+            "url": "https://learn.javascript.ru/async-iterators-generators#asinhronno-perebiraemye-obekty",
+            "applications": []
+          },
+          {
+            "id": "primer-iz-realnoy-praktiki",
+            "title": "Пример из реальной практики",
+            "url": "https://learn.javascript.ru/async-iterators-generators#primer-iz-realnoy-praktiki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "modules": {
+    "title": "Модули",
+    "articles": [
+      {
+        "id": "modules-intro",
+        "title": "Модули, введение",
+        "url": "https://learn.javascript.ru/modules-intro",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "import-export",
+        "title": "Экспорт и импорт",
+        "url": "https://learn.javascript.ru/import-export",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "modules-dynamic-imports",
+        "title": "Динамические импорты",
+        "url": "https://learn.javascript.ru/modules-dynamic-imports",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      }
+    ]
+  },
+  "js-misc": {
+    "title": "Разное",
+    "articles": [
+      {
+        "id": "proxy",
+        "title": "Proxy и Reflect",
+        "url": "https://learn.javascript.ru/proxy",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "znachenie-po-umolchaniyu-s-lovushkoy-get",
+            "title": "Значение по умолчанию с ловушкой «get»",
+            "url": "https://learn.javascript.ru/proxy#znachenie-po-umolchaniyu-s-lovushkoy-get",
+            "applications": []
+          },
+          {
+            "id": "validatsiya-s-lovushkoy-set",
+            "title": "Валидация с ловушкой «set»",
+            "url": "https://learn.javascript.ru/proxy#validatsiya-s-lovushkoy-set",
+            "applications": []
+          },
+          {
+            "id": "perebor-pri-pomoschi-ownkeys-i-getownpropertydescriptor",
+            "title": "Перебор при помощи «ownKeys» и «getOwnPropertyDescriptor»",
+            "url": "https://learn.javascript.ru/proxy#perebor-pri-pomoschi-ownkeys-i-getownpropertydescriptor",
+            "applications": []
+          },
+          {
+            "id": "zaschischyonnye-svoystva-s-lovushkoy-deleteproperty-i-drugimi",
+            "title": "Защищённые свойства с ловушкой «deleteProperty» и другими",
+            "url": "https://learn.javascript.ru/proxy#zaschischyonnye-svoystva-s-lovushkoy-deleteproperty-i-drugimi",
+            "applications": []
+          },
+          {
+            "id": "v-diapazone-s-lovushkoy-has",
+            "title": "«В диапазоне» с ловушкой «has»",
+            "url": "https://learn.javascript.ru/proxy#v-diapazone-s-lovushkoy-has",
+            "applications": []
+          },
+          {
+            "id": "oborachivaem-funktsii-apply",
+            "title": "Оборачиваем функции: «apply»",
+            "url": "https://learn.javascript.ru/proxy#oborachivaem-funktsii-apply",
+            "applications": []
+          },
+          {
+            "id": "reflect",
+            "title": "Reflect",
+            "url": "https://learn.javascript.ru/proxy#reflect",
+            "applications": []
+          },
+          {
+            "id": "ogranicheniya-proksi",
+            "title": "Ограничения прокси",
+            "url": "https://learn.javascript.ru/proxy#ogranicheniya-proksi",
+            "applications": []
+          },
+          {
+            "id": "otklyuchaemye-proksi",
+            "title": "Отключаемые прокси",
+            "url": "https://learn.javascript.ru/proxy#otklyuchaemye-proksi",
+            "applications": []
+          },
+          {
+            "id": "ssylki",
+            "title": "Ссылки",
+            "url": "https://learn.javascript.ru/proxy#ssylki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "eval",
+        "title": "Eval: выполнение строки кода",
+        "url": "https://learn.javascript.ru/eval",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ispolzovanie-eval",
+            "title": "Использование «eval»",
+            "url": "https://learn.javascript.ru/eval#ispolzovanie-eval",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "currying-partials",
+        "title": "Каррирование",
+        "url": "https://learn.javascript.ru/currying-partials",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "karrirovanie-zachem",
+            "title": "Каррирование? Зачем?",
+            "url": "https://learn.javascript.ru/currying-partials#karrirovanie-zachem",
+            "applications": []
+          },
+          {
+            "id": "prodvinutaya-realizatsiya-karrirovaniya",
+            "title": "Продвинутая реализация каррирования",
+            "url": "https://learn.javascript.ru/currying-partials#prodvinutaya-realizatsiya-karrirovaniya",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "reference-type",
+        "title": "Ссылочный тип",
+        "url": "https://learn.javascript.ru/reference-type",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ssylochnyy-tip-obyasnenie",
+            "title": "Ссылочный тип: объяснение",
+            "url": "https://learn.javascript.ru/reference-type#ssylochnyy-tip-obyasnenie",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "bitwise-operators",
+        "title": "Побитовые операторы",
+        "url": "https://learn.javascript.ru/bitwise-operators",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "bigint",
+        "title": "BigInt",
+        "url": "https://learn.javascript.ru/bigint",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "matematicheskie-operatory",
+            "title": "Математические операторы",
+            "url": "https://learn.javascript.ru/bigint#matematicheskie-operatory",
+            "applications": []
+          },
+          {
+            "id": "operatsii-sravneniya",
+            "title": "Операции сравнения",
+            "url": "https://learn.javascript.ru/bigint#operatsii-sravneniya",
+            "applications": []
+          },
+          {
+            "id": "logicheskie-operatsii",
+            "title": "Логические операции",
+            "url": "https://learn.javascript.ru/bigint#logicheskie-operatsii",
+            "applications": []
+          },
+          {
+            "id": "polifily",
+            "title": "Полифилы",
+            "url": "https://learn.javascript.ru/bigint#polifily",
+            "applications": []
+          },
+          {
+            "id": "ssylki",
+            "title": "Ссылки",
+            "url": "https://learn.javascript.ru/bigint#ssylki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "unicode",
+        "title": "Юникод, внутреннее устройство строк",
+        "url": "https://learn.javascript.ru/unicode",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "intl",
+        "title": "Intl: интернационализация в JavaScript",
+        "url": "https://learn.javascript.ru/intl",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "osnovnye-obekty",
+            "title": "Основные объекты",
+            "url": "https://learn.javascript.ru/intl#osnovnye-obekty",
+            "applications": []
+          },
+          {
+            "id": "lokal",
+            "title": "Локаль",
+            "url": "https://learn.javascript.ru/intl#lokal",
+            "applications": []
+          },
+          {
+            "id": "intl-collator",
+            "title": "Строки, Intl.Collator",
+            "url": "https://learn.javascript.ru/intl#intl-collator",
+            "applications": []
+          },
+          {
+            "id": "intl-datetimeformat",
+            "title": "Даты, Intl.DateTimeFormat",
+            "url": "https://learn.javascript.ru/intl#intl-datetimeformat",
+            "applications": []
+          },
+          {
+            "id": "chisla-intl-numberformat",
+            "title": "Числа, Intl.NumberFormat",
+            "url": "https://learn.javascript.ru/intl#chisla-intl-numberformat",
+            "applications": []
+          },
+          {
+            "id": "metody-v-date-string-number",
+            "title": "Методы в Date, String, Number",
+            "url": "https://learn.javascript.ru/intl#metody-v-date-string-number",
+            "applications": []
+          },
+          {
+            "id": "starye-ie",
+            "title": "Старые IE",
+            "url": "https://learn.javascript.ru/intl#starye-ie",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "weakref-finalizationregistry",
+        "title": "WeakRef и FinalizationRegistry",
+        "url": "https://learn.javascript.ru/weakref-finalizationregistry",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "weakref",
+            "title": "WeakRef",
+            "url": "https://learn.javascript.ru/weakref-finalizationregistry#weakref",
+            "applications": []
+          },
+          {
+            "id": "varianty-ispolzovaniya-weakref",
+            "title": "Варианты использования WeakRef",
+            "url": "https://learn.javascript.ru/weakref-finalizationregistry#varianty-ispolzovaniya-weakref",
+            "applications": []
+          },
+          {
+            "id": "primer-1-primenenie-weakref-dlya-keshirovaniya",
+            "title": "Пример №1: применение WeakRef для кеширования",
+            "url": "https://learn.javascript.ru/weakref-finalizationregistry#primer-1-primenenie-weakref-dlya-keshirovaniya",
+            "applications": []
+          },
+          {
+            "id": "primer-2-primenenie-weakref-dlya-otslezhivaniya-obektov-dom",
+            "title": "Пример №2: применение WeakRef для отслеживания объектов DOM",
+            "url": "https://learn.javascript.ru/weakref-finalizationregistry#primer-2-primenenie-weakref-dlya-otslezhivaniya-obektov-dom",
+            "applications": []
+          },
+          {
+            "id": "finalizationregistry",
+            "title": "FinalizationRegistry",
+            "url": "https://learn.javascript.ru/weakref-finalizationregistry#finalizationregistry",
+            "applications": []
+          },
+          {
+            "id": "keshirovanie-s-finalizationregistry",
+            "title": "Кеширование с FinalizationRegistry",
+            "url": "https://learn.javascript.ru/weakref-finalizationregistry#keshirovanie-s-finalizationregistry",
+            "applications": []
+          },
+          {
+            "id": "ispolzovanie-weakref-i-finalizationregistry-na-praktike",
+            "title": "Использование WeakRef и FinalizationRegistry на практике",
+            "url": "https://learn.javascript.ru/weakref-finalizationregistry#ispolzovanie-weakref-i-finalizationregistry-na-praktike",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "document": {
+    "title": "Документ",
+    "articles": [
+      {
+        "id": "browser-environment",
+        "title": "Браузерное окружение, спецификации",
+        "url": "https://learn.javascript.ru/browser-environment",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "dom-document-object-model",
+            "title": "DOM (Document Object Model)",
+            "url": "https://learn.javascript.ru/browser-environment#dom-document-object-model",
+            "applications": []
+          },
+          {
+            "id": "bom-browser-object-model",
+            "title": "BOM (Browser Object Model)",
+            "url": "https://learn.javascript.ru/browser-environment#bom-browser-object-model",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "dom-nodes",
+        "title": "DOM-дерево",
+        "url": "https://learn.javascript.ru/dom-nodes",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primer-dom",
+            "title": "Пример DOM",
+            "url": "https://learn.javascript.ru/dom-nodes#primer-dom",
+            "applications": []
+          },
+          {
+            "id": "avtoispravlenie",
+            "title": "Автоисправление",
+            "url": "https://learn.javascript.ru/dom-nodes#avtoispravlenie",
+            "applications": []
+          },
+          {
+            "id": "drugie-tipy-uzlov",
+            "title": "Другие типы узлов",
+            "url": "https://learn.javascript.ru/dom-nodes#drugie-tipy-uzlov",
+            "applications": []
+          },
+          {
+            "id": "poeksperimentiruyte-sami",
+            "title": "Поэкспериментируйте сами",
+            "url": "https://learn.javascript.ru/dom-nodes#poeksperimentiruyte-sami",
+            "applications": []
+          },
+          {
+            "id": "vzaimodeystvie-s-konsolyu",
+            "title": "Взаимодействие с консолью",
+            "url": "https://learn.javascript.ru/dom-nodes#vzaimodeystvie-s-konsolyu",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "dom-navigation",
+        "title": "Навигация по DOM-элементам",
+        "url": "https://learn.javascript.ru/dom-navigation",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sverhu-documentelement-i-body",
+            "title": "Сверху: documentElement и body",
+            "url": "https://learn.javascript.ru/dom-navigation#sverhu-documentelement-i-body",
+            "applications": []
+          },
+          {
+            "id": "deti-childnodes-firstchild-lastchild",
+            "title": "Дети: childNodes, firstChild, lastChild",
+            "url": "https://learn.javascript.ru/dom-navigation#deti-childnodes-firstchild-lastchild",
+            "applications": []
+          },
+          {
+            "id": "sosedi-i-roditel",
+            "title": "Соседи и родитель",
+            "url": "https://learn.javascript.ru/dom-navigation#sosedi-i-roditel",
+            "applications": []
+          },
+          {
+            "id": "navigatsiya-tolko-po-elementam",
+            "title": "Навигация только по элементам",
+            "url": "https://learn.javascript.ru/dom-navigation#navigatsiya-tolko-po-elementam",
+            "applications": []
+          },
+          {
+            "id": "dom-navigation-tables",
+            "title": "Ещё немного ссылок: таблицы",
+            "url": "https://learn.javascript.ru/dom-navigation#dom-navigation-tables",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "searching-elements-dom",
+        "title": "Поиск: getElement*, querySelector*",
+        "url": "https://learn.javascript.ru/searching-elements-dom",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "document-getelementbyid-ili-prosto-id",
+            "title": "document.getElementById или просто id",
+            "url": "https://learn.javascript.ru/searching-elements-dom#document-getelementbyid-ili-prosto-id",
+            "applications": []
+          },
+          {
+            "id": "querySelectorAll",
+            "title": "querySelectorAll",
+            "url": "https://learn.javascript.ru/searching-elements-dom#querySelectorAll",
+            "applications": []
+          },
+          {
+            "id": "querySelector",
+            "title": "querySelector",
+            "url": "https://learn.javascript.ru/searching-elements-dom#querySelector",
+            "applications": []
+          },
+          {
+            "id": "matches",
+            "title": "matches",
+            "url": "https://learn.javascript.ru/searching-elements-dom#matches",
+            "applications": []
+          },
+          {
+            "id": "closest",
+            "title": "closest",
+            "url": "https://learn.javascript.ru/searching-elements-dom#closest",
+            "applications": []
+          },
+          {
+            "id": "getelementsby",
+            "title": "getElementsBy*",
+            "url": "https://learn.javascript.ru/searching-elements-dom#getelementsby",
+            "applications": []
+          },
+          {
+            "id": "zhivye-kollektsii",
+            "title": "Живые коллекции",
+            "url": "https://learn.javascript.ru/searching-elements-dom#zhivye-kollektsii",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "basic-dom-node-properties",
+        "title": "Свойства узлов: тип, тег и содержимое",
+        "url": "https://learn.javascript.ru/basic-dom-node-properties",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "klassy-dom-uzlov",
+            "title": "Классы DOM-узлов",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#klassy-dom-uzlov",
+            "applications": []
+          },
+          {
+            "id": "svoystvo-nodetype",
+            "title": "Свойство «nodeType»",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#svoystvo-nodetype",
+            "applications": []
+          },
+          {
+            "id": "teg-nodename-i-tagname",
+            "title": "Тег: nodeName и tagName",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#teg-nodename-i-tagname",
+            "applications": []
+          },
+          {
+            "id": "innerhtml-soderzhimoe-elementa",
+            "title": "innerHTML: содержимое элемента",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#innerhtml-soderzhimoe-elementa",
+            "applications": []
+          },
+          {
+            "id": "outerhtml-html-elementa-tselikom",
+            "title": "outerHTML: HTML элемента целиком",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#outerhtml-html-elementa-tselikom",
+            "applications": []
+          },
+          {
+            "id": "nodevalue-data-soderzhimoe-tekstovogo-uzla",
+            "title": "nodeValue/data: содержимое текстового узла",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#nodevalue-data-soderzhimoe-tekstovogo-uzla",
+            "applications": []
+          },
+          {
+            "id": "textcontent-prosto-tekst",
+            "title": "textContent: просто текст",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#textcontent-prosto-tekst",
+            "applications": []
+          },
+          {
+            "id": "svoystvo-hidden",
+            "title": "Свойство «hidden»",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#svoystvo-hidden",
+            "applications": []
+          },
+          {
+            "id": "drugie-svoystva",
+            "title": "Другие свойства",
+            "url": "https://learn.javascript.ru/basic-dom-node-properties#drugie-svoystva",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "dom-attributes-and-properties",
+        "title": "Атрибуты и свойства",
+        "url": "https://learn.javascript.ru/dom-attributes-and-properties",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "dom-svoystva",
+            "title": "DOM-свойства",
+            "url": "https://learn.javascript.ru/dom-attributes-and-properties#dom-svoystva",
+            "applications": []
+          },
+          {
+            "id": "html-atributy",
+            "title": "HTML-атрибуты",
+            "url": "https://learn.javascript.ru/dom-attributes-and-properties#html-atributy",
+            "applications": []
+          },
+          {
+            "id": "sinhronizatsiya-mezhdu-atributami-i-svoystvami",
+            "title": "Синхронизация между атрибутами и свойствами",
+            "url": "https://learn.javascript.ru/dom-attributes-and-properties#sinhronizatsiya-mezhdu-atributami-i-svoystvami",
+            "applications": []
+          },
+          {
+            "id": "dom-svoystva-tipizirovany",
+            "title": "DOM-свойства типизированы",
+            "url": "https://learn.javascript.ru/dom-attributes-and-properties#dom-svoystva-tipizirovany",
+            "applications": []
+          },
+          {
+            "id": "nestandartnye-atributy-dataset",
+            "title": "Нестандартные атрибуты, dataset",
+            "url": "https://learn.javascript.ru/dom-attributes-and-properties#nestandartnye-atributy-dataset",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "modifying-document",
+        "title": "Изменение документа",
+        "url": "https://learn.javascript.ru/modifying-document",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primer-pokazat-soobschenie",
+            "title": "Пример: показать сообщение",
+            "url": "https://learn.javascript.ru/modifying-document#primer-pokazat-soobschenie",
+            "applications": []
+          },
+          {
+            "id": "sozdanie-elementa",
+            "title": "Создание элемента",
+            "url": "https://learn.javascript.ru/modifying-document#sozdanie-elementa",
+            "applications": []
+          },
+          {
+            "id": "metody-vstavki",
+            "title": "Методы вставки",
+            "url": "https://learn.javascript.ru/modifying-document#metody-vstavki",
+            "applications": []
+          },
+          {
+            "id": "insertadjacenthtml-text-element",
+            "title": "insertAdjacentHTML/Text/Element",
+            "url": "https://learn.javascript.ru/modifying-document#insertadjacenthtml-text-element",
+            "applications": []
+          },
+          {
+            "id": "udalenie-uzlov",
+            "title": "Удаление узлов",
+            "url": "https://learn.javascript.ru/modifying-document#udalenie-uzlov",
+            "applications": []
+          },
+          {
+            "id": "klonirovanie-uzlov-clonenode",
+            "title": "Клонирование узлов: cloneNode",
+            "url": "https://learn.javascript.ru/modifying-document#klonirovanie-uzlov-clonenode",
+            "applications": []
+          },
+          {
+            "id": "document-fragment",
+            "title": "DocumentFragment",
+            "url": "https://learn.javascript.ru/modifying-document#document-fragment",
+            "applications": []
+          },
+          {
+            "id": "ustarevshie-metody-vstavki-udaleniya",
+            "title": "Устаревшие методы вставки/удаления",
+            "url": "https://learn.javascript.ru/modifying-document#ustarevshie-metody-vstavki-udaleniya",
+            "applications": []
+          },
+          {
+            "id": "neskolko-slov-o-document-write",
+            "title": "Несколько слов о «document.write»",
+            "url": "https://learn.javascript.ru/modifying-document#neskolko-slov-o-document-write",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "styles-and-classes",
+        "title": "Стили и классы",
+        "url": "https://learn.javascript.ru/styles-and-classes",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "classname-i-classlist",
+            "title": "className и classList",
+            "url": "https://learn.javascript.ru/styles-and-classes#classname-i-classlist",
+            "applications": []
+          },
+          {
+            "id": "svoystvo-style",
+            "title": "Свойство style",
+            "url": "https://learn.javascript.ru/styles-and-classes#svoystvo-style",
+            "applications": []
+          },
+          {
+            "id": "sbros-stiley",
+            "title": "Сброс стилей",
+            "url": "https://learn.javascript.ru/styles-and-classes#sbros-stiley",
+            "applications": []
+          },
+          {
+            "id": "sledite-za-edinitsami-izmereniya",
+            "title": "Следите за единицами измерения",
+            "url": "https://learn.javascript.ru/styles-and-classes#sledite-za-edinitsami-izmereniya",
+            "applications": []
+          },
+          {
+            "id": "vychislennye-stili-getcomputedstyle",
+            "title": "Вычисленные стили: getComputedStyle",
+            "url": "https://learn.javascript.ru/styles-and-classes#vychislennye-stili-getcomputedstyle",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "size-and-scroll",
+        "title": "Размеры и прокрутка элементов",
+        "url": "https://learn.javascript.ru/size-and-scroll",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "prostoy-primer",
+            "title": "Простой пример",
+            "url": "https://learn.javascript.ru/size-and-scroll#prostoy-primer",
+            "applications": []
+          },
+          {
+            "id": "metriki",
+            "title": "Метрики",
+            "url": "https://learn.javascript.ru/size-and-scroll#metriki",
+            "applications": []
+          },
+          {
+            "id": "offsetparent-offsetleft-top",
+            "title": "offsetParent, offsetLeft/Top",
+            "url": "https://learn.javascript.ru/size-and-scroll#offsetparent-offsetleft-top",
+            "applications": []
+          },
+          {
+            "id": "offsetwidth-height",
+            "title": "offsetWidth/Height",
+            "url": "https://learn.javascript.ru/size-and-scroll#offsetwidth-height",
+            "applications": []
+          },
+          {
+            "id": "clienttop-left",
+            "title": "clientTop/Left",
+            "url": "https://learn.javascript.ru/size-and-scroll#clienttop-left",
+            "applications": []
+          },
+          {
+            "id": "clientwidth-height",
+            "title": "clientWidth/Height",
+            "url": "https://learn.javascript.ru/size-and-scroll#clientwidth-height",
+            "applications": []
+          },
+          {
+            "id": "scrollwidth-height",
+            "title": "scrollWidth/Height",
+            "url": "https://learn.javascript.ru/size-and-scroll#scrollwidth-height",
+            "applications": []
+          },
+          {
+            "id": "scrollleft-scrolltop",
+            "title": "scrollLeft/scrollTop",
+            "url": "https://learn.javascript.ru/size-and-scroll#scrollleft-scrolltop",
+            "applications": []
+          },
+          {
+            "id": "ne-stoit-brat-width-height-iz-css",
+            "title": "Не стоит брать width/height из CSS",
+            "url": "https://learn.javascript.ru/size-and-scroll#ne-stoit-brat-width-height-iz-css",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "size-and-scroll-window",
+        "title": "Размеры и прокрутка окна",
+        "url": "https://learn.javascript.ru/size-and-scroll-window",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "shirina-vysota-okna",
+            "title": "Ширина/высота окна",
+            "url": "https://learn.javascript.ru/size-and-scroll-window#shirina-vysota-okna",
+            "applications": []
+          },
+          {
+            "id": "shirina-vysota-dokumenta",
+            "title": "Ширина/высота документа",
+            "url": "https://learn.javascript.ru/size-and-scroll-window#shirina-vysota-dokumenta",
+            "applications": []
+          },
+          {
+            "id": "page-scroll",
+            "title": "Получение текущей прокрутки",
+            "url": "https://learn.javascript.ru/size-and-scroll-window#page-scroll",
+            "applications": []
+          },
+          {
+            "id": "window-scroll",
+            "title": "Прокрутка: scrollTo, scrollBy, scrollIntoView",
+            "url": "https://learn.javascript.ru/size-and-scroll-window#window-scroll",
+            "applications": []
+          },
+          {
+            "id": "scrollintoview",
+            "title": "scrollIntoView",
+            "url": "https://learn.javascript.ru/size-and-scroll-window#scrollintoview",
+            "applications": []
+          },
+          {
+            "id": "zapretit-prokrutku",
+            "title": "Запретить прокрутку",
+            "url": "https://learn.javascript.ru/size-and-scroll-window#zapretit-prokrutku",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "coordinates",
+        "title": "Координаты",
+        "url": "https://learn.javascript.ru/coordinates",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "koordinaty-otnositelno-okna-getboundingclientrect",
+            "title": "Координаты относительно окна: getBoundingClientRect",
+            "url": "https://learn.javascript.ru/coordinates#koordinaty-otnositelno-okna-getboundingclientrect",
+            "applications": []
+          },
+          {
+            "id": "elementFromPoint",
+            "title": "elementFromPoint(x, y)",
+            "url": "https://learn.javascript.ru/coordinates#elementFromPoint",
+            "applications": []
+          },
+          {
+            "id": "primenenie-dlya-fixed-pozitsionirovaniya",
+            "title": "Применение для fixed позиционирования",
+            "url": "https://learn.javascript.ru/coordinates#primenenie-dlya-fixed-pozitsionirovaniya",
+            "applications": []
+          },
+          {
+            "id": "getCoords",
+            "title": "Координаты относительно документа",
+            "url": "https://learn.javascript.ru/coordinates#getCoords",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "events": {
+    "title": "Введение в события",
+    "articles": [
+      {
+        "id": "introduction-browser-events",
+        "title": "Введение в браузерные события",
+        "url": "https://learn.javascript.ru/introduction-browser-events",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "obrabotchiki-sobytiy",
+            "title": "Обработчики событий",
+            "url": "https://learn.javascript.ru/introduction-browser-events#obrabotchiki-sobytiy",
+            "applications": []
+          },
+          {
+            "id": "dostup-k-elementu-cherez-this",
+            "title": "Доступ к элементу через this",
+            "url": "https://learn.javascript.ru/introduction-browser-events#dostup-k-elementu-cherez-this",
+            "applications": []
+          },
+          {
+            "id": "chastye-oshibki",
+            "title": "Частые ошибки",
+            "url": "https://learn.javascript.ru/introduction-browser-events#chastye-oshibki",
+            "applications": []
+          },
+          {
+            "id": "addeventlistener",
+            "title": "addEventListener",
+            "url": "https://learn.javascript.ru/introduction-browser-events#addeventlistener",
+            "applications": []
+          },
+          {
+            "id": "obekt-sobytiya",
+            "title": "Объект события",
+            "url": "https://learn.javascript.ru/introduction-browser-events#obekt-sobytiya",
+            "applications": []
+          },
+          {
+            "id": "obekt-obrabotchik-handleevent",
+            "title": "Объект-обработчик: handleEvent",
+            "url": "https://learn.javascript.ru/introduction-browser-events#obekt-obrabotchik-handleevent",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "bubbling-and-capturing",
+        "title": "Всплытие и погружение",
+        "url": "https://learn.javascript.ru/bubbling-and-capturing",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "vsplytie",
+            "title": "Всплытие",
+            "url": "https://learn.javascript.ru/bubbling-and-capturing#vsplytie",
+            "applications": []
+          },
+          {
+            "id": "event-target",
+            "title": "event.target",
+            "url": "https://learn.javascript.ru/bubbling-and-capturing#event-target",
+            "applications": []
+          },
+          {
+            "id": "prekraschenie-vsplytiya",
+            "title": "Прекращение всплытия",
+            "url": "https://learn.javascript.ru/bubbling-and-capturing#prekraschenie-vsplytiya",
+            "applications": []
+          },
+          {
+            "id": "pogruzhenie",
+            "title": "Погружение",
+            "url": "https://learn.javascript.ru/bubbling-and-capturing#pogruzhenie",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "event-delegation",
+        "title": "Делегирование событий",
+        "url": "https://learn.javascript.ru/event-delegation",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primenenie-delegirovaniya-deystviya-v-razmetke",
+            "title": "Применение делегирования: действия в разметке",
+            "url": "https://learn.javascript.ru/event-delegation#primenenie-delegirovaniya-deystviya-v-razmetke",
+            "applications": []
+          },
+          {
+            "id": "priyom-proektirovaniya-povedenie",
+            "title": "Приём проектирования «поведение»",
+            "url": "https://learn.javascript.ru/event-delegation#priyom-proektirovaniya-povedenie",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "default-browser-action",
+        "title": "Действия браузера по умолчанию",
+        "url": "https://learn.javascript.ru/default-browser-action",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "otmena-deystviya-brauzera",
+            "title": "Отмена действия браузера",
+            "url": "https://learn.javascript.ru/default-browser-action#otmena-deystviya-brauzera",
+            "applications": []
+          },
+          {
+            "id": "optsiya-passive-dlya-obrabotchika",
+            "title": "Опция «passive» для обработчика",
+            "url": "https://learn.javascript.ru/default-browser-action#optsiya-passive-dlya-obrabotchika",
+            "applications": []
+          },
+          {
+            "id": "event-defaultprevented",
+            "title": "event.defaultPrevented",
+            "url": "https://learn.javascript.ru/default-browser-action#event-defaultprevented",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "dispatch-events",
+        "title": "Генерация пользовательских событий",
+        "url": "https://learn.javascript.ru/dispatch-events",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "konstruktor-event",
+            "title": "Конструктор Event",
+            "url": "https://learn.javascript.ru/dispatch-events#konstruktor-event",
+            "applications": []
+          },
+          {
+            "id": "metod-dispatchevent",
+            "title": "Метод dispatchEvent",
+            "url": "https://learn.javascript.ru/dispatch-events#metod-dispatchevent",
+            "applications": []
+          },
+          {
+            "id": "primer-vsplytiya",
+            "title": "Пример всплытия",
+            "url": "https://learn.javascript.ru/dispatch-events#primer-vsplytiya",
+            "applications": []
+          },
+          {
+            "id": "mouseevent-keyboardevent-i-drugie",
+            "title": "MouseEvent, KeyboardEvent и другие",
+            "url": "https://learn.javascript.ru/dispatch-events#mouseevent-keyboardevent-i-drugie",
+            "applications": []
+          },
+          {
+            "id": "polzovatelskie-sobytiya",
+            "title": "Пользовательские события",
+            "url": "https://learn.javascript.ru/dispatch-events#polzovatelskie-sobytiya",
+            "applications": []
+          },
+          {
+            "id": "event-preventdefault",
+            "title": "event.preventDefault()",
+            "url": "https://learn.javascript.ru/dispatch-events#event-preventdefault",
+            "applications": []
+          },
+          {
+            "id": "vlozhennye-sobytiya-obrabatyvayutsya-sinhronno",
+            "title": "Вложенные события обрабатываются синхронно",
+            "url": "https://learn.javascript.ru/dispatch-events#vlozhennye-sobytiya-obrabatyvayutsya-sinhronno",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "event-details": {
+    "title": "Интерфейсные события",
+    "articles": [
+      {
+        "id": "mouse-events-basics",
+        "title": "Основы событий мыши",
+        "url": "https://learn.javascript.ru/mouse-events-basics",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "tipy-sobytiy-myshi",
+            "title": "Типы событий мыши",
+            "url": "https://learn.javascript.ru/mouse-events-basics#tipy-sobytiy-myshi",
+            "applications": []
+          },
+          {
+            "id": "poryadok-sobytiy",
+            "title": "Порядок событий",
+            "url": "https://learn.javascript.ru/mouse-events-basics#poryadok-sobytiy",
+            "applications": []
+          },
+          {
+            "id": "knopki-myshi",
+            "title": "Кнопки мыши",
+            "url": "https://learn.javascript.ru/mouse-events-basics#knopki-myshi",
+            "applications": []
+          },
+          {
+            "id": "modifikatory-shift-alt-ctrl-i-meta",
+            "title": "Модификаторы: shift, alt, ctrl и meta",
+            "url": "https://learn.javascript.ru/mouse-events-basics#modifikatory-shift-alt-ctrl-i-meta",
+            "applications": []
+          },
+          {
+            "id": "koordinaty-clientx-y-pagex-y",
+            "title": "Координаты: clientX/Y, pageX/Y",
+            "url": "https://learn.javascript.ru/mouse-events-basics#koordinaty-clientx-y-pagex-y",
+            "applications": []
+          },
+          {
+            "id": "otklyuchaem-vydelenie",
+            "title": "Отключаем выделение",
+            "url": "https://learn.javascript.ru/mouse-events-basics#otklyuchaem-vydelenie",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "mousemove-mouseover-mouseout-mouseenter-mouseleave",
+        "title": "Движение мыши: mouseover/out, mouseenter/leave",
+        "url": "https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sobytiya-mouseover-mouseout-relatedtarget",
+            "title": "События mouseover/mouseout, relatedTarget",
+            "url": "https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave#sobytiya-mouseover-mouseout-relatedtarget",
+            "applications": []
+          },
+          {
+            "id": "propusk-elementov",
+            "title": "Пропуск элементов",
+            "url": "https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave#propusk-elementov",
+            "applications": []
+          },
+          {
+            "id": "sobytie-mouseout-pri-perehode-na-potomka",
+            "title": "Событие mouseout при переходе на потомка",
+            "url": "https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave#sobytie-mouseout-pri-perehode-na-potomka",
+            "applications": []
+          },
+          {
+            "id": "sobytiya-mouseenter-i-mouseleave",
+            "title": "События mouseenter и mouseleave",
+            "url": "https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave#sobytiya-mouseenter-i-mouseleave",
+            "applications": []
+          },
+          {
+            "id": "delegirovanie-sobytiy",
+            "title": "Делегирование событий",
+            "url": "https://learn.javascript.ru/mousemove-mouseover-mouseout-mouseenter-mouseleave#delegirovanie-sobytiy",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "mouse-drag-and-drop",
+        "title": "Drag'n'Drop с событиями мыши",
+        "url": "https://learn.javascript.ru/mouse-drag-and-drop",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "algoritm-drag-n-drop",
+            "title": "Алгоритм Drag’n’Drop",
+            "url": "https://learn.javascript.ru/mouse-drag-and-drop#algoritm-drag-n-drop",
+            "applications": []
+          },
+          {
+            "id": "pravilnoe-pozitsionirovanie",
+            "title": "Правильное позиционирование",
+            "url": "https://learn.javascript.ru/mouse-drag-and-drop#pravilnoe-pozitsionirovanie",
+            "applications": []
+          },
+          {
+            "id": "tseli-perenosa-droppable",
+            "title": "Цели переноса (droppable)",
+            "url": "https://learn.javascript.ru/mouse-drag-and-drop#tseli-perenosa-droppable",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "keyboard-events",
+        "title": "Клавиатура: keydown и keyup",
+        "url": "https://learn.javascript.ru/keyboard-events",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "keyboard-test-stand",
+            "title": "Тестовый стенд",
+            "url": "https://learn.javascript.ru/keyboard-events#keyboard-test-stand",
+            "applications": []
+          },
+          {
+            "id": "sobytiya-keydown-i-keyup",
+            "title": "События keydown и keyup",
+            "url": "https://learn.javascript.ru/keyboard-events#sobytiya-keydown-i-keyup",
+            "applications": []
+          },
+          {
+            "id": "avtopovtor",
+            "title": "Автоповтор",
+            "url": "https://learn.javascript.ru/keyboard-events#avtopovtor",
+            "applications": []
+          },
+          {
+            "id": "deystviya-po-umolchaniyu",
+            "title": "Действия по умолчанию",
+            "url": "https://learn.javascript.ru/keyboard-events#deystviya-po-umolchaniyu",
+            "applications": []
+          },
+          {
+            "id": "dela-minuvshih-dney",
+            "title": "«Дела минувших дней»",
+            "url": "https://learn.javascript.ru/keyboard-events#dela-minuvshih-dney",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "pointer-events",
+        "title": "События указателя",
+        "url": "https://learn.javascript.ru/pointer-events",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "kratkaya-istoriya",
+            "title": "Краткая история",
+            "url": "https://learn.javascript.ru/pointer-events#kratkaya-istoriya",
+            "applications": []
+          },
+          {
+            "id": "tipy-sobytiy-ukazatelya",
+            "title": "Типы событий указателя",
+            "url": "https://learn.javascript.ru/pointer-events#tipy-sobytiy-ukazatelya",
+            "applications": []
+          },
+          {
+            "id": "svoystva-sobytiy-ukazatelya",
+            "title": "Свойства событий указателя",
+            "url": "https://learn.javascript.ru/pointer-events#svoystva-sobytiy-ukazatelya",
+            "applications": []
+          },
+          {
+            "id": "multi-tach",
+            "title": "Мульти-тач",
+            "url": "https://learn.javascript.ru/pointer-events#multi-tach",
+            "applications": []
+          },
+          {
+            "id": "sobytie-pointercancel",
+            "title": "Событие: pointercancel",
+            "url": "https://learn.javascript.ru/pointer-events#sobytie-pointercancel",
+            "applications": []
+          },
+          {
+            "id": "zahvat-ukazatelya",
+            "title": "Захват указателя",
+            "url": "https://learn.javascript.ru/pointer-events#zahvat-ukazatelya",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "onscroll",
+        "title": "Прокрутка",
+        "url": "https://learn.javascript.ru/onscroll",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "predotvraschenie-prokrutki",
+            "title": "Предотвращение прокрутки",
+            "url": "https://learn.javascript.ru/onscroll#predotvraschenie-prokrutki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "forms-controls": {
+    "title": "Формы, элементы управления",
+    "articles": [
+      {
+        "id": "form-elements",
+        "title": "Свойства и методы формы",
+        "url": "https://learn.javascript.ru/form-elements",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "navigatsiya-formy-i-elementy",
+            "title": "Навигация: формы и элементы",
+            "url": "https://learn.javascript.ru/form-elements#navigatsiya-formy-i-elementy",
+            "applications": []
+          },
+          {
+            "id": "obratnaya-ssylka-element-form",
+            "title": "Обратная ссылка: element.form",
+            "url": "https://learn.javascript.ru/form-elements#obratnaya-ssylka-element-form",
+            "applications": []
+          },
+          {
+            "id": "elementy-formy",
+            "title": "Элементы формы",
+            "url": "https://learn.javascript.ru/form-elements#elementy-formy",
+            "applications": []
+          },
+          {
+            "id": "ssylki",
+            "title": "Ссылки",
+            "url": "https://learn.javascript.ru/form-elements#ssylki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "focus-blur",
+        "title": "Фокусировка: focus/blur",
+        "url": "https://learn.javascript.ru/focus-blur",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sobytiya-focus-blur",
+            "title": "События focus/blur",
+            "url": "https://learn.javascript.ru/focus-blur#sobytiya-focus-blur",
+            "applications": []
+          },
+          {
+            "id": "metody-focus-blur",
+            "title": "Методы focus/blur",
+            "url": "https://learn.javascript.ru/focus-blur#metody-focus-blur",
+            "applications": []
+          },
+          {
+            "id": "vklyuchaem-fokusirovku-na-lyubom-elemente-tabindex",
+            "title": "Включаем фокусировку на любом элементе: tabindex",
+            "url": "https://learn.javascript.ru/focus-blur#vklyuchaem-fokusirovku-na-lyubom-elemente-tabindex",
+            "applications": []
+          },
+          {
+            "id": "sobytiya-focusin-focusout",
+            "title": "События focusin/focusout",
+            "url": "https://learn.javascript.ru/focus-blur#sobytiya-focusin-focusout",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "events-change-input",
+        "title": "События: change, input, cut, copy, paste",
+        "url": "https://learn.javascript.ru/events-change-input",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sobytie-change",
+            "title": "Событие: change",
+            "url": "https://learn.javascript.ru/events-change-input#sobytie-change",
+            "applications": []
+          },
+          {
+            "id": "sobytie-input",
+            "title": "Событие: input",
+            "url": "https://learn.javascript.ru/events-change-input#sobytie-input",
+            "applications": []
+          },
+          {
+            "id": "sobytiya-cut-copy-paste",
+            "title": "События: cut, copy, paste",
+            "url": "https://learn.javascript.ru/events-change-input#sobytiya-cut-copy-paste",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "forms-submit",
+        "title": "Отправка формы: событие и метод submit",
+        "url": "https://learn.javascript.ru/forms-submit",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sobytie-submit",
+            "title": "Событие: submit",
+            "url": "https://learn.javascript.ru/forms-submit#sobytie-submit",
+            "applications": []
+          },
+          {
+            "id": "metod-submit",
+            "title": "Метод: submit",
+            "url": "https://learn.javascript.ru/forms-submit#metod-submit",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "loading": {
+    "title": "Загрузка документа и ресурсов",
+    "articles": [
+      {
+        "id": "onload-ondomcontentloaded",
+        "title": "Страница: DOMContentLoaded, load, beforeunload, unload",
+        "url": "https://learn.javascript.ru/onload-ondomcontentloaded",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "domcontentloaded",
+            "title": "DOMContentLoaded",
+            "url": "https://learn.javascript.ru/onload-ondomcontentloaded#domcontentloaded",
+            "applications": []
+          },
+          {
+            "id": "window-onload",
+            "title": "window.onload",
+            "url": "https://learn.javascript.ru/onload-ondomcontentloaded#window-onload",
+            "applications": []
+          },
+          {
+            "id": "window-onunload",
+            "title": "window.onunload",
+            "url": "https://learn.javascript.ru/onload-ondomcontentloaded#window-onunload",
+            "applications": []
+          },
+          {
+            "id": "window.onbeforeunload",
+            "title": "window.onbeforeunload",
+            "url": "https://learn.javascript.ru/onload-ondomcontentloaded#window.onbeforeunload",
+            "applications": []
+          },
+          {
+            "id": "readystate",
+            "title": "readyState",
+            "url": "https://learn.javascript.ru/onload-ondomcontentloaded#readystate",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "script-async-defer",
+        "title": "Скрипты: async, defer",
+        "url": "https://learn.javascript.ru/script-async-defer",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "defer",
+            "title": "defer",
+            "url": "https://learn.javascript.ru/script-async-defer#defer",
+            "applications": []
+          },
+          {
+            "id": "async",
+            "title": "async",
+            "url": "https://learn.javascript.ru/script-async-defer#async",
+            "applications": []
+          },
+          {
+            "id": "dinamicheski-zagruzhaemye-skripty",
+            "title": "Динамически загружаемые скрипты",
+            "url": "https://learn.javascript.ru/script-async-defer#dinamicheski-zagruzhaemye-skripty",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "onload-onerror",
+        "title": "Загрузка ресурсов: onload и onerror",
+        "url": "https://learn.javascript.ru/onload-onerror",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "zagruzka-skriptov",
+            "title": "Загрузка скриптов",
+            "url": "https://learn.javascript.ru/onload-onerror#zagruzka-skriptov",
+            "applications": []
+          },
+          {
+            "id": "drugie-resursy",
+            "title": "Другие ресурсы",
+            "url": "https://learn.javascript.ru/onload-onerror#drugie-resursy",
+            "applications": []
+          },
+          {
+            "id": "oshibka-v-skripte-s-drugogo-istochnika",
+            "title": "Ошибка в скрипте с другого источника",
+            "url": "https://learn.javascript.ru/onload-onerror#oshibka-v-skripte-s-drugogo-istochnika",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "ui-misc": {
+    "title": "Разное",
+    "articles": [
+      {
+        "id": "mutation-observer",
+        "title": "MutationObserver: наблюдатель за изменениями",
+        "url": "https://learn.javascript.ru/mutation-observer",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sintaksis",
+            "title": "Синтаксис",
+            "url": "https://learn.javascript.ru/mutation-observer#sintaksis",
+            "applications": []
+          },
+          {
+            "id": "ispolzovanie-dlya-integratsii",
+            "title": "Использование для интеграции",
+            "url": "https://learn.javascript.ru/mutation-observer#ispolzovanie-dlya-integratsii",
+            "applications": []
+          },
+          {
+            "id": "ispolzovanie-dlya-arhitektury",
+            "title": "Использование для архитектуры",
+            "url": "https://learn.javascript.ru/mutation-observer#ispolzovanie-dlya-arhitektury",
+            "applications": []
+          },
+          {
+            "id": "dopolnitelnye-metody",
+            "title": "Дополнительные методы",
+            "url": "https://learn.javascript.ru/mutation-observer#dopolnitelnye-metody",
+            "applications": []
+          },
+          {
+            "id": "sborka-musora",
+            "title": "Сборка мусора",
+            "url": "https://learn.javascript.ru/mutation-observer#sborka-musora",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "selection-range",
+        "title": "Selection и Range",
+        "url": "https://learn.javascript.ru/selection-range",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "range",
+            "title": "Range",
+            "url": "https://learn.javascript.ru/selection-range#range",
+            "applications": []
+          },
+          {
+            "id": "metody-range",
+            "title": "Методы Range",
+            "url": "https://learn.javascript.ru/selection-range#metody-range",
+            "applications": []
+          },
+          {
+            "id": "selection",
+            "title": "Selection",
+            "url": "https://learn.javascript.ru/selection-range#selection",
+            "applications": []
+          },
+          {
+            "id": "svoystva-selection",
+            "title": "Свойства Selection",
+            "url": "https://learn.javascript.ru/selection-range#svoystva-selection",
+            "applications": []
+          },
+          {
+            "id": "sobytiya-pri-vydelenii",
+            "title": "События при выделении",
+            "url": "https://learn.javascript.ru/selection-range#sobytiya-pri-vydelenii",
+            "applications": []
+          },
+          {
+            "id": "metody-selection",
+            "title": "Методы Selection",
+            "url": "https://learn.javascript.ru/selection-range#metody-selection",
+            "applications": []
+          },
+          {
+            "id": "vydelenie-v-elementah-form",
+            "title": "Выделение в элементах форм",
+            "url": "https://learn.javascript.ru/selection-range#vydelenie-v-elementah-form",
+            "applications": []
+          },
+          {
+            "id": "sdelat-chto-to-nevydelyaemym",
+            "title": "Сделать что-то невыделяемым",
+            "url": "https://learn.javascript.ru/selection-range#sdelat-chto-to-nevydelyaemym",
+            "applications": []
+          },
+          {
+            "id": "ssylki",
+            "title": "Ссылки",
+            "url": "https://learn.javascript.ru/selection-range#ssylki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "event-loop",
+        "title": "Событийный цикл: микрозадачи и макрозадачи",
+        "url": "https://learn.javascript.ru/event-loop",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sobytiynyy-tsikl",
+            "title": "Событийный цикл",
+            "url": "https://learn.javascript.ru/event-loop#sobytiynyy-tsikl",
+            "applications": []
+          },
+          {
+            "id": "primer-2-indikatsiya-progressa",
+            "title": "Пример 2: индикация прогресса",
+            "url": "https://learn.javascript.ru/event-loop#primer-2-indikatsiya-progressa",
+            "applications": []
+          },
+          {
+            "id": "primer-3-delaem-chto-nibud-posle-sobytiya",
+            "title": "Пример 3: делаем что-нибудь после события",
+            "url": "https://learn.javascript.ru/event-loop#primer-3-delaem-chto-nibud-posle-sobytiya",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "frames-and-windows": {
+    "title": "Фреймы и окна",
+    "articles": [
+      {
+        "id": "popup-windows",
+        "title": "Открытие окон и методы window",
+        "url": "https://learn.javascript.ru/popup-windows",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "blokirovka-popapov",
+            "title": "Блокировка попапов",
+            "url": "https://learn.javascript.ru/popup-windows#blokirovka-popapov",
+            "applications": []
+          },
+          {
+            "id": "polnyy-sintaksis-window-open",
+            "title": "Полный синтаксис window.open",
+            "url": "https://learn.javascript.ru/popup-windows#polnyy-sintaksis-window-open",
+            "applications": []
+          },
+          {
+            "id": "primer-minimalistichnoe-okno",
+            "title": "Пример: минималистичное окно",
+            "url": "https://learn.javascript.ru/popup-windows#primer-minimalistichnoe-okno",
+            "applications": []
+          },
+          {
+            "id": "dostup-k-popapu-iz-osnovnogo-okna",
+            "title": "Доступ к попапу из основного окна",
+            "url": "https://learn.javascript.ru/popup-windows#dostup-k-popapu-iz-osnovnogo-okna",
+            "applications": []
+          },
+          {
+            "id": "dostup-k-otkryvshemu-oknu-iz-popapa",
+            "title": "Доступ к открывшему окну из попапа",
+            "url": "https://learn.javascript.ru/popup-windows#dostup-k-otkryvshemu-oknu-iz-popapa",
+            "applications": []
+          },
+          {
+            "id": "zakrytie-popapa",
+            "title": "Закрытие попапа",
+            "url": "https://learn.javascript.ru/popup-windows#zakrytie-popapa",
+            "applications": []
+          },
+          {
+            "id": "prokrutka-i-izmenenie-razmerov",
+            "title": "Прокрутка и изменение размеров",
+            "url": "https://learn.javascript.ru/popup-windows#prokrutka-i-izmenenie-razmerov",
+            "applications": []
+          },
+          {
+            "id": "prokrutka-okna",
+            "title": "Прокрутка окна",
+            "url": "https://learn.javascript.ru/popup-windows#prokrutka-okna",
+            "applications": []
+          },
+          {
+            "id": "ustanovka-i-poterya-fokusa",
+            "title": "Установка и потеря фокуса",
+            "url": "https://learn.javascript.ru/popup-windows#ustanovka-i-poterya-fokusa",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "cross-window-communication",
+        "title": "Общение между окнами",
+        "url": "https://learn.javascript.ru/cross-window-communication",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "same-origin",
+            "title": "Политика \"Одинакового источника\"",
+            "url": "https://learn.javascript.ru/cross-window-communication#same-origin",
+            "applications": []
+          },
+          {
+            "id": "okna-na-poddomenah-document-domain",
+            "title": "Окна на поддоменах: document.domain",
+            "url": "https://learn.javascript.ru/cross-window-communication#okna-na-poddomenah-document-domain",
+            "applications": []
+          },
+          {
+            "id": "kollektsiya-window-frames",
+            "title": "Коллекция window.frames",
+            "url": "https://learn.javascript.ru/cross-window-communication#kollektsiya-window-frames",
+            "applications": []
+          },
+          {
+            "id": "atribut-ifreyma-sandbox",
+            "title": "Атрибут ифрейма sandbox",
+            "url": "https://learn.javascript.ru/cross-window-communication#atribut-ifreyma-sandbox",
+            "applications": []
+          },
+          {
+            "id": "obmen-soobscheniyami-mezhdu-oknami",
+            "title": "Обмен сообщениями между окнами",
+            "url": "https://learn.javascript.ru/cross-window-communication#obmen-soobscheniyami-mezhdu-oknami",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "clickjacking",
+        "title": "Атака типа clickjacking",
+        "url": "https://learn.javascript.ru/clickjacking",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ideya",
+            "title": "Идея",
+            "url": "https://learn.javascript.ru/clickjacking#ideya",
+            "applications": []
+          },
+          {
+            "id": "demonstratsiya",
+            "title": "Демонстрация",
+            "url": "https://learn.javascript.ru/clickjacking#demonstratsiya",
+            "applications": []
+          },
+          {
+            "id": "primery-slaboy-zaschity",
+            "title": "Примеры слабой защиты",
+            "url": "https://learn.javascript.ru/clickjacking#primery-slaboy-zaschity",
+            "applications": []
+          },
+          {
+            "id": "zagolovok-x-frame-options",
+            "title": "Заголовок X-Frame-Options",
+            "url": "https://learn.javascript.ru/clickjacking#zagolovok-x-frame-options",
+            "applications": []
+          },
+          {
+            "id": "otobrazhenie-s-ogranichennymi-vozmozhnostyami",
+            "title": "Отображение с ограниченными возможностями",
+            "url": "https://learn.javascript.ru/clickjacking#otobrazhenie-s-ogranichennymi-vozmozhnostyami",
+            "applications": []
+          },
+          {
+            "id": "atribut-cookie-samesite",
+            "title": "Атрибут cookie: samesite",
+            "url": "https://learn.javascript.ru/clickjacking#atribut-cookie-samesite",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "binary": {
+    "title": "Бинарные данные и файлы",
+    "articles": [
+      {
+        "id": "arraybuffer-binary-arrays",
+        "title": "ArrayBuffer, бинарные массивы",
+        "url": "https://learn.javascript.ru/arraybuffer-binary-arrays",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "text-decoder",
+        "title": "TextDecoder и TextEncoder",
+        "url": "https://learn.javascript.ru/text-decoder",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "textencoder",
+            "title": "TextEncoder",
+            "url": "https://learn.javascript.ru/text-decoder#textencoder",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "blob",
+        "title": "Blob",
+        "url": "https://learn.javascript.ru/blob",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "blob-kak-url",
+            "title": "Blob как URL",
+            "url": "https://learn.javascript.ru/blob#blob-kak-url",
+            "applications": []
+          },
+          {
+            "id": "blob-to-base64",
+            "title": "Blob to base64",
+            "url": "https://learn.javascript.ru/blob#blob-to-base64",
+            "applications": []
+          },
+          {
+            "id": "izobrazhenie-v-blob",
+            "title": "Изображение в Blob",
+            "url": "https://learn.javascript.ru/blob#izobrazhenie-v-blob",
+            "applications": []
+          },
+          {
+            "id": "iz-blob-v-arraybuffer",
+            "title": "Из Blob в ArrayBuffer",
+            "url": "https://learn.javascript.ru/blob#iz-blob-v-arraybuffer",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "file",
+        "title": "File и FileReader",
+        "url": "https://learn.javascript.ru/file",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "filereader",
+            "title": "FileReader",
+            "url": "https://learn.javascript.ru/file#filereader",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "network": {
+    "title": "Сетевые запросы",
+    "articles": [
+      {
+        "id": "fetch",
+        "title": "Fetch",
+        "url": "https://learn.javascript.ru/fetch",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "zagolovki-otveta",
+            "title": "Заголовки ответа",
+            "url": "https://learn.javascript.ru/fetch#zagolovki-otveta",
+            "applications": []
+          },
+          {
+            "id": "zagolovki-zaprosa",
+            "title": "Заголовки запроса",
+            "url": "https://learn.javascript.ru/fetch#zagolovki-zaprosa",
+            "applications": []
+          },
+          {
+            "id": "post-zaprosy",
+            "title": "POST-запросы",
+            "url": "https://learn.javascript.ru/fetch#post-zaprosy",
+            "applications": []
+          },
+          {
+            "id": "otpravka-izobrazheniya",
+            "title": "Отправка изображения",
+            "url": "https://learn.javascript.ru/fetch#otpravka-izobrazheniya",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "formdata",
+        "title": "FormData",
+        "url": "https://learn.javascript.ru/formdata",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "otpravka-prostoy-formy",
+            "title": "Отправка простой формы",
+            "url": "https://learn.javascript.ru/formdata#otpravka-prostoy-formy",
+            "applications": []
+          },
+          {
+            "id": "metody-obekta-formdata",
+            "title": "Методы объекта FormData",
+            "url": "https://learn.javascript.ru/formdata#metody-obekta-formdata",
+            "applications": []
+          },
+          {
+            "id": "otpravka-formy-s-faylom",
+            "title": "Отправка формы с файлом",
+            "url": "https://learn.javascript.ru/formdata#otpravka-formy-s-faylom",
+            "applications": []
+          },
+          {
+            "id": "otpravka-formy-s-blob-dannymi",
+            "title": "Отправка формы с Blob-данными",
+            "url": "https://learn.javascript.ru/formdata#otpravka-formy-s-blob-dannymi",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "fetch-progress",
+        "title": "Fetch: ход загрузки",
+        "url": "https://learn.javascript.ru/fetch-progress",
+        "level": "concept",
+        "sections": [],
+        "progress": 0
+      },
+      {
+        "id": "fetch-abort",
+        "title": "Fetch: прерывание запроса",
+        "url": "https://learn.javascript.ru/fetch-abort",
+        "level": "concept",
+        "sections": [],
+        "progress": 0
+      },
+      {
+        "id": "fetch-crossorigin",
+        "title": "Fetch: запросы на другие сайты",
+        "url": "https://learn.javascript.ru/fetch-crossorigin",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "zachem-nuzhen-cors-ekskurs-v-istoriyu",
+            "title": "Зачем нужен CORS? Экскурс в историю",
+            "url": "https://learn.javascript.ru/fetch-crossorigin#zachem-nuzhen-cors-ekskurs-v-istoriyu",
+            "applications": []
+          },
+          {
+            "id": "prostye-zaprosy",
+            "title": "Простые запросы",
+            "url": "https://learn.javascript.ru/fetch-crossorigin#prostye-zaprosy",
+            "applications": []
+          },
+          {
+            "id": "cors-dlya-prostyh-zaprosov",
+            "title": "CORS для простых запросов",
+            "url": "https://learn.javascript.ru/fetch-crossorigin#cors-dlya-prostyh-zaprosov",
+            "applications": []
+          },
+          {
+            "id": "zagolovki-otveta",
+            "title": "Заголовки ответа",
+            "url": "https://learn.javascript.ru/fetch-crossorigin#zagolovki-otveta",
+            "applications": []
+          },
+          {
+            "id": "neprostye-zaprosy",
+            "title": "«Непростые» запросы",
+            "url": "https://learn.javascript.ru/fetch-crossorigin#neprostye-zaprosy",
+            "applications": []
+          },
+          {
+            "id": "avtorizatsionnye-dannye",
+            "title": "Авторизационные данные",
+            "url": "https://learn.javascript.ru/fetch-crossorigin#avtorizatsionnye-dannye",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "fetch-api",
+        "title": "Fetch API",
+        "url": "https://learn.javascript.ru/fetch-api",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "referrer-referrerpolicy",
+            "title": "referrer, referrerPolicy",
+            "url": "https://learn.javascript.ru/fetch-api#referrer-referrerpolicy",
+            "applications": []
+          },
+          {
+            "id": "mode",
+            "title": "mode",
+            "url": "https://learn.javascript.ru/fetch-api#mode",
+            "applications": []
+          },
+          {
+            "id": "credentials",
+            "title": "credentials",
+            "url": "https://learn.javascript.ru/fetch-api#credentials",
+            "applications": []
+          },
+          {
+            "id": "cache",
+            "title": "cache",
+            "url": "https://learn.javascript.ru/fetch-api#cache",
+            "applications": []
+          },
+          {
+            "id": "redirect",
+            "title": "redirect",
+            "url": "https://learn.javascript.ru/fetch-api#redirect",
+            "applications": []
+          },
+          {
+            "id": "integrity",
+            "title": "integrity",
+            "url": "https://learn.javascript.ru/fetch-api#integrity",
+            "applications": []
+          },
+          {
+            "id": "keepalive",
+            "title": "keepalive",
+            "url": "https://learn.javascript.ru/fetch-api#keepalive",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "url",
+        "title": "Объекты URL",
+        "url": "https://learn.javascript.ru/url",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "sozdanie-url",
+            "title": "Создание URL",
+            "url": "https://learn.javascript.ru/url#sozdanie-url",
+            "applications": []
+          },
+          {
+            "id": "searchparams",
+            "title": "SearchParams «?…»",
+            "url": "https://learn.javascript.ru/url#searchparams",
+            "applications": []
+          },
+          {
+            "id": "kodirovanie",
+            "title": "Кодирование",
+            "url": "https://learn.javascript.ru/url#kodirovanie",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "xmlhttprequest",
+        "title": "XMLHttpRequest",
+        "url": "https://learn.javascript.ru/xmlhttprequest",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "osnovy",
+            "title": "Основы",
+            "url": "https://learn.javascript.ru/xmlhttprequest#osnovy",
+            "applications": []
+          },
+          {
+            "id": "tip-otveta",
+            "title": "Тип ответа",
+            "url": "https://learn.javascript.ru/xmlhttprequest#tip-otveta",
+            "applications": []
+          },
+          {
+            "id": "sostoyaniya-zaprosa",
+            "title": "Состояния запроса",
+            "url": "https://learn.javascript.ru/xmlhttprequest#sostoyaniya-zaprosa",
+            "applications": []
+          },
+          {
+            "id": "otmena-zaprosa",
+            "title": "Отмена запроса",
+            "url": "https://learn.javascript.ru/xmlhttprequest#otmena-zaprosa",
+            "applications": []
+          },
+          {
+            "id": "sinhronnye-zaprosy",
+            "title": "Синхронные запросы",
+            "url": "https://learn.javascript.ru/xmlhttprequest#sinhronnye-zaprosy",
+            "applications": []
+          },
+          {
+            "id": "http-zagolovki",
+            "title": "HTTP-заголовки",
+            "url": "https://learn.javascript.ru/xmlhttprequest#http-zagolovki",
+            "applications": []
+          },
+          {
+            "id": "post-formdata",
+            "title": "POST, FormData",
+            "url": "https://learn.javascript.ru/xmlhttprequest#post-formdata",
+            "applications": []
+          },
+          {
+            "id": "progress-otpravki",
+            "title": "Прогресс отправки",
+            "url": "https://learn.javascript.ru/xmlhttprequest#progress-otpravki",
+            "applications": []
+          },
+          {
+            "id": "zaprosy-na-drugoy-istochnik",
+            "title": "Запросы на другой источник",
+            "url": "https://learn.javascript.ru/xmlhttprequest#zaprosy-na-drugoy-istochnik",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "resume-upload",
+        "title": "Возобновляемая загрузка файлов",
+        "url": "https://learn.javascript.ru/resume-upload",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ne-ochen-poleznoe-sobytie-progress",
+            "title": "Не очень полезное событие progress",
+            "url": "https://learn.javascript.ru/resume-upload#ne-ochen-poleznoe-sobytie-progress",
+            "applications": []
+          },
+          {
+            "id": "algoritm",
+            "title": "Алгоритм",
+            "url": "https://learn.javascript.ru/resume-upload#algoritm",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "long-polling",
+        "title": "Длинные опросы",
+        "url": "https://learn.javascript.ru/long-polling",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "chastye-oprosy",
+            "title": "Частые опросы",
+            "url": "https://learn.javascript.ru/long-polling#chastye-oprosy",
+            "applications": []
+          },
+          {
+            "id": "dlinnye-oprosy",
+            "title": "Длинные опросы",
+            "url": "https://learn.javascript.ru/long-polling#dlinnye-oprosy",
+            "applications": []
+          },
+          {
+            "id": "demo-chat",
+            "title": "Демо: чат",
+            "url": "https://learn.javascript.ru/long-polling#demo-chat",
+            "applications": []
+          },
+          {
+            "id": "oblast-primeneniya",
+            "title": "Область применения",
+            "url": "https://learn.javascript.ru/long-polling#oblast-primeneniya",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "websocket",
+        "title": "WebSocket",
+        "url": "https://learn.javascript.ru/websocket",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "prostoy-primer",
+            "title": "Простой пример",
+            "url": "https://learn.javascript.ru/websocket#prostoy-primer",
+            "applications": []
+          },
+          {
+            "id": "otkrytie-veb-soketa",
+            "title": "Открытие веб-сокета",
+            "url": "https://learn.javascript.ru/websocket#otkrytie-veb-soketa",
+            "applications": []
+          },
+          {
+            "id": "peredacha-dannyh",
+            "title": "Передача данных",
+            "url": "https://learn.javascript.ru/websocket#peredacha-dannyh",
+            "applications": []
+          },
+          {
+            "id": "ogranichenie-skorosti",
+            "title": "Ограничение скорости",
+            "url": "https://learn.javascript.ru/websocket#ogranichenie-skorosti",
+            "applications": []
+          },
+          {
+            "id": "zakrytie-podklyucheniya",
+            "title": "Закрытие подключения",
+            "url": "https://learn.javascript.ru/websocket#zakrytie-podklyucheniya",
+            "applications": []
+          },
+          {
+            "id": "sostoyanie-soedineniya",
+            "title": "Состояние соединения",
+            "url": "https://learn.javascript.ru/websocket#sostoyanie-soedineniya",
+            "applications": []
+          },
+          {
+            "id": "primer-chata",
+            "title": "Пример чата",
+            "url": "https://learn.javascript.ru/websocket#primer-chata",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "server-sent-events",
+        "title": "Server Sent Events",
+        "url": "https://learn.javascript.ru/server-sent-events",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "poluchenie-soobscheniy",
+            "title": "Получение сообщений",
+            "url": "https://learn.javascript.ru/server-sent-events#poluchenie-soobscheniy",
+            "applications": []
+          },
+          {
+            "id": "perepodklyuchenie",
+            "title": "Переподключение",
+            "url": "https://learn.javascript.ru/server-sent-events#perepodklyuchenie",
+            "applications": []
+          },
+          {
+            "id": "identifikator-soobscheniya",
+            "title": "Идентификатор сообщения",
+            "url": "https://learn.javascript.ru/server-sent-events#identifikator-soobscheniya",
+            "applications": []
+          },
+          {
+            "id": "status-podklyucheniya-readystate",
+            "title": "Статус подключения: readyState",
+            "url": "https://learn.javascript.ru/server-sent-events#status-podklyucheniya-readystate",
+            "applications": []
+          },
+          {
+            "id": "tipy-sobytiy",
+            "title": "Типы событий",
+            "url": "https://learn.javascript.ru/server-sent-events#tipy-sobytiy",
+            "applications": []
+          },
+          {
+            "id": "polnyy-primer",
+            "title": "Полный пример",
+            "url": "https://learn.javascript.ru/server-sent-events#polnyy-primer",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "data-storage": {
+    "title": "Хранение данных в браузере",
+    "articles": [
+      {
+        "id": "cookie",
+        "title": "Куки, document.cookie",
+        "url": "https://learn.javascript.ru/cookie",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "chtenie-iz-document-cookie",
+            "title": "Чтение из document.cookie",
+            "url": "https://learn.javascript.ru/cookie#chtenie-iz-document-cookie",
+            "applications": []
+          },
+          {
+            "id": "zapis-v-document-cookie",
+            "title": "Запись в document.cookie",
+            "url": "https://learn.javascript.ru/cookie#zapis-v-document-cookie",
+            "applications": []
+          },
+          {
+            "id": "path",
+            "title": "path",
+            "url": "https://learn.javascript.ru/cookie#path",
+            "applications": []
+          },
+          {
+            "id": "domain",
+            "title": "domain",
+            "url": "https://learn.javascript.ru/cookie#domain",
+            "applications": []
+          },
+          {
+            "id": "expires-max-age",
+            "title": "expires, max-age",
+            "url": "https://learn.javascript.ru/cookie#expires-max-age",
+            "applications": []
+          },
+          {
+            "id": "secure",
+            "title": "secure",
+            "url": "https://learn.javascript.ru/cookie#secure",
+            "applications": []
+          },
+          {
+            "id": "samesite",
+            "title": "samesite",
+            "url": "https://learn.javascript.ru/cookie#samesite",
+            "applications": []
+          },
+          {
+            "id": "httponly",
+            "title": "httpOnly",
+            "url": "https://learn.javascript.ru/cookie#httponly",
+            "applications": []
+          },
+          {
+            "id": "prilozhenie-funktsii-dlya-raboty-s-kuki",
+            "title": "Приложение: Функции для работы с куки",
+            "url": "https://learn.javascript.ru/cookie#prilozhenie-funktsii-dlya-raboty-s-kuki",
+            "applications": []
+          },
+          {
+            "id": "prilozhenie-storonnie-kuki",
+            "title": "Приложение: Сторонние куки",
+            "url": "https://learn.javascript.ru/cookie#prilozhenie-storonnie-kuki",
+            "applications": []
+          },
+          {
+            "id": "prilozhenie-gdpr",
+            "title": "Приложение: GDPR",
+            "url": "https://learn.javascript.ru/cookie#prilozhenie-gdpr",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "localstorage",
+        "title": "LocalStorage, sessionStorage",
+        "url": "https://learn.javascript.ru/localstorage",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "demo-localstorage",
+            "title": "Демо localStorage",
+            "url": "https://learn.javascript.ru/localstorage#demo-localstorage",
+            "applications": []
+          },
+          {
+            "id": "dostup-kak-k-obychnomu-obektu",
+            "title": "Доступ как к обычному объекту",
+            "url": "https://learn.javascript.ru/localstorage#dostup-kak-k-obychnomu-obektu",
+            "applications": []
+          },
+          {
+            "id": "perebor-klyuchey",
+            "title": "Перебор ключей",
+            "url": "https://learn.javascript.ru/localstorage#perebor-klyuchey",
+            "applications": []
+          },
+          {
+            "id": "tolko-stroki",
+            "title": "Только строки",
+            "url": "https://learn.javascript.ru/localstorage#tolko-stroki",
+            "applications": []
+          },
+          {
+            "id": "sessionstorage",
+            "title": "sessionStorage",
+            "url": "https://learn.javascript.ru/localstorage#sessionstorage",
+            "applications": []
+          },
+          {
+            "id": "sobytie-storage",
+            "title": "Событие storage",
+            "url": "https://learn.javascript.ru/localstorage#sobytie-storage",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "indexeddb",
+        "title": "IndexedDB",
+        "url": "https://learn.javascript.ru/indexeddb",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "otkryt-bazu-dannyh",
+            "title": "Открыть базу данных",
+            "url": "https://learn.javascript.ru/indexeddb#otkryt-bazu-dannyh",
+            "applications": []
+          },
+          {
+            "id": "hranilische-obektov",
+            "title": "Хранилище объектов",
+            "url": "https://learn.javascript.ru/indexeddb#hranilische-obektov",
+            "applications": []
+          },
+          {
+            "id": "tranzaktsii",
+            "title": "Транзакции",
+            "url": "https://learn.javascript.ru/indexeddb#tranzaktsii",
+            "applications": []
+          },
+          {
+            "id": "avtomaticheskaya-fiksatsiya-tranzaktsiy",
+            "title": "Автоматическая фиксация транзакций",
+            "url": "https://learn.javascript.ru/indexeddb#avtomaticheskaya-fiksatsiya-tranzaktsiy",
+            "applications": []
+          },
+          {
+            "id": "obrabotka-oshibok",
+            "title": "Обработка ошибок",
+            "url": "https://learn.javascript.ru/indexeddb#obrabotka-oshibok",
+            "applications": []
+          },
+          {
+            "id": "poisk-po-klyucham",
+            "title": "Поиск по ключам",
+            "url": "https://learn.javascript.ru/indexeddb#poisk-po-klyucham",
+            "applications": []
+          },
+          {
+            "id": "poisk-po-indeksirovannomu-polyu",
+            "title": "Поиск по индексированному полю",
+            "url": "https://learn.javascript.ru/indexeddb#poisk-po-indeksirovannomu-polyu",
+            "applications": []
+          },
+          {
+            "id": "udalenie-iz-hranilischa",
+            "title": "Удаление из хранилища",
+            "url": "https://learn.javascript.ru/indexeddb#udalenie-iz-hranilischa",
+            "applications": []
+          },
+          {
+            "id": "kursory",
+            "title": "Курсоры",
+            "url": "https://learn.javascript.ru/indexeddb#kursory",
+            "applications": []
+          },
+          {
+            "id": "obyortka-dlya-promisov",
+            "title": "Обёртка для промисов",
+            "url": "https://learn.javascript.ru/indexeddb#obyortka-dlya-promisov",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "animation": {
+    "title": "Анимация",
+    "articles": [
+      {
+        "id": "bezier-curve",
+        "title": "Кривые Безье",
+        "url": "https://learn.javascript.ru/bezier-curve",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "opornye-tochki",
+            "title": "Опорные точки",
+            "url": "https://learn.javascript.ru/bezier-curve#opornye-tochki",
+            "applications": []
+          },
+          {
+            "id": "algoritm-de-kastelzho",
+            "title": "Алгоритм «де Кастельжо»",
+            "url": "https://learn.javascript.ru/bezier-curve#algoritm-de-kastelzho",
+            "applications": []
+          },
+          {
+            "id": "matematika",
+            "title": "Математика",
+            "url": "https://learn.javascript.ru/bezier-curve#matematika",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "css-animations",
+        "title": "CSS-анимации",
+        "url": "https://learn.javascript.ru/css-animations",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "css-transition",
+            "title": "CSS-переходы",
+            "url": "https://learn.javascript.ru/css-animations#css-transition",
+            "applications": []
+          },
+          {
+            "id": "transition-property",
+            "title": "transition-property",
+            "url": "https://learn.javascript.ru/css-animations#transition-property",
+            "applications": []
+          },
+          {
+            "id": "transition-duration",
+            "title": "transition-duration",
+            "url": "https://learn.javascript.ru/css-animations#transition-duration",
+            "applications": []
+          },
+          {
+            "id": "transition-delay",
+            "title": "transition-delay",
+            "url": "https://learn.javascript.ru/css-animations#transition-delay",
+            "applications": []
+          },
+          {
+            "id": "transition-timing-function",
+            "title": "transition-timing-function",
+            "url": "https://learn.javascript.ru/css-animations#transition-timing-function",
+            "applications": []
+          },
+          {
+            "id": "sobytie-transitionend",
+            "title": "Событие: «transitionend»",
+            "url": "https://learn.javascript.ru/css-animations#sobytie-transitionend",
+            "applications": []
+          },
+          {
+            "id": "klyuchevye-kadry",
+            "title": "Ключевые кадры",
+            "url": "https://learn.javascript.ru/css-animations#klyuchevye-kadry",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "js-animation",
+        "title": "JavaScript-анимации",
+        "url": "https://learn.javascript.ru/js-animation",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ispolzovanie-setinterval",
+            "title": "Использование setInterval",
+            "url": "https://learn.javascript.ru/js-animation#ispolzovanie-setinterval",
+            "applications": []
+          },
+          {
+            "id": "ispolzovanie-requestanimationframe",
+            "title": "Использование requestAnimationFrame",
+            "url": "https://learn.javascript.ru/js-animation#ispolzovanie-requestanimationframe",
+            "applications": []
+          },
+          {
+            "id": "struktura-animatsii",
+            "title": "Структура анимации",
+            "url": "https://learn.javascript.ru/js-animation#struktura-animatsii",
+            "applications": []
+          },
+          {
+            "id": "funktsii-raschyota-vremeni",
+            "title": "Функции расчёта времени",
+            "url": "https://learn.javascript.ru/js-animation#funktsii-raschyota-vremeni",
+            "applications": []
+          },
+          {
+            "id": "reversivnye-funktsii-ease",
+            "title": "Реверсивные функции: ease*",
+            "url": "https://learn.javascript.ru/js-animation#reversivnye-funktsii-ease",
+            "applications": []
+          },
+          {
+            "id": "bolee-interesnaya-funktsiya-draw",
+            "title": "Более интересная функция «draw»",
+            "url": "https://learn.javascript.ru/js-animation#bolee-interesnaya-funktsiya-draw",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "web-components": {
+    "title": "Веб-компоненты",
+    "articles": [
+      {
+        "id": "webcomponents-intro",
+        "title": "С орбитальной высоты",
+        "url": "https://learn.javascript.ru/webcomponents-intro",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "chto-obschego-mezhdu",
+            "title": "Что общего между…",
+            "url": "https://learn.javascript.ru/webcomponents-intro#chto-obschego-mezhdu",
+            "applications": []
+          },
+          {
+            "id": "komponentnaya-arhitektura",
+            "title": "Компонентная архитектура",
+            "url": "https://learn.javascript.ru/webcomponents-intro#komponentnaya-arhitektura",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "custom-elements",
+        "title": "Пользовательские элементы (Custom Elements)",
+        "url": "https://learn.javascript.ru/custom-elements",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primer-time-formatted",
+            "title": "Пример: «time-formatted»",
+            "url": "https://learn.javascript.ru/custom-elements#primer-time-formatted",
+            "applications": []
+          },
+          {
+            "id": "nablyudenie-za-atributami",
+            "title": "Наблюдение за атрибутами",
+            "url": "https://learn.javascript.ru/custom-elements#nablyudenie-za-atributami",
+            "applications": []
+          },
+          {
+            "id": "poryadok-renderinga",
+            "title": "Порядок рендеринга",
+            "url": "https://learn.javascript.ru/custom-elements#poryadok-renderinga",
+            "applications": []
+          },
+          {
+            "id": "modifitsirovannye-vstroennye-elementy",
+            "title": "Модифицированные встроенные элементы",
+            "url": "https://learn.javascript.ru/custom-elements#modifitsirovannye-vstroennye-elementy",
+            "applications": []
+          },
+          {
+            "id": "ssylki",
+            "title": "Ссылки",
+            "url": "https://learn.javascript.ru/custom-elements#ssylki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "shadow-dom",
+        "title": "Shadow DOM",
+        "url": "https://learn.javascript.ru/shadow-dom",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "vstroennyy-tenevoy-dom",
+            "title": "Встроенный теневой DOM",
+            "url": "https://learn.javascript.ru/shadow-dom#vstroennyy-tenevoy-dom",
+            "applications": []
+          },
+          {
+            "id": "tenevoe-derevo",
+            "title": "Теневое дерево",
+            "url": "https://learn.javascript.ru/shadow-dom#tenevoe-derevo",
+            "applications": []
+          },
+          {
+            "id": "inkapsulyatsiya",
+            "title": "Инкапсуляция",
+            "url": "https://learn.javascript.ru/shadow-dom#inkapsulyatsiya",
+            "applications": []
+          },
+          {
+            "id": "ssylki",
+            "title": "Ссылки",
+            "url": "https://learn.javascript.ru/shadow-dom#ssylki",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "template-element",
+        "title": "Элемент \"template\"",
+        "url": "https://learn.javascript.ru/template-element",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "ispolzovanie-template",
+            "title": "Использование template",
+            "url": "https://learn.javascript.ru/template-element#ispolzovanie-template",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "slots-composition",
+        "title": "Слоты теневого DOM, композиция",
+        "url": "https://learn.javascript.ru/slots-composition",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "imenovannye-sloty",
+            "title": "Именованные слоты",
+            "url": "https://learn.javascript.ru/slots-composition#imenovannye-sloty",
+            "applications": []
+          },
+          {
+            "id": "soderzhimoe-slota-po-umolchaniyu",
+            "title": "Содержимое слота «по умолчанию»",
+            "url": "https://learn.javascript.ru/slots-composition#soderzhimoe-slota-po-umolchaniyu",
+            "applications": []
+          },
+          {
+            "id": "slot-po-umolchaniyu-pervyy-bez-imeni",
+            "title": "Слот по умолчанию (первый без имени)",
+            "url": "https://learn.javascript.ru/slots-composition#slot-po-umolchaniyu-pervyy-bez-imeni",
+            "applications": []
+          },
+          {
+            "id": "primer-menyu",
+            "title": "Пример меню",
+            "url": "https://learn.javascript.ru/slots-composition#primer-menyu",
+            "applications": []
+          },
+          {
+            "id": "obnovlenie-slotov",
+            "title": "Обновление слотов",
+            "url": "https://learn.javascript.ru/slots-composition#obnovlenie-slotov",
+            "applications": []
+          },
+          {
+            "id": "api-slotov",
+            "title": "API слотов",
+            "url": "https://learn.javascript.ru/slots-composition#api-slotov",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "shadow-dom-style",
+        "title": "Настройка стилей теневого DOM",
+        "url": "https://learn.javascript.ru/shadow-dom-style",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "host",
+            "title": ":host",
+            "url": "https://learn.javascript.ru/shadow-dom-style#host",
+            "applications": []
+          },
+          {
+            "id": "kaskadirovanie",
+            "title": "Каскадирование",
+            "url": "https://learn.javascript.ru/shadow-dom-style#kaskadirovanie",
+            "applications": []
+          },
+          {
+            "id": "host-selector",
+            "title": ":host(selector)",
+            "url": "https://learn.javascript.ru/shadow-dom-style#host-selector",
+            "applications": []
+          },
+          {
+            "id": "primenenie-stiley-k-soderzhimomu-slotov",
+            "title": "Применение стилей к содержимому слотов",
+            "url": "https://learn.javascript.ru/shadow-dom-style#primenenie-stiley-k-soderzhimomu-slotov",
+            "applications": []
+          },
+          {
+            "id": "css-huki-s-polzovatelskimi-svoystvami",
+            "title": "CSS-хуки с пользовательскими свойствами",
+            "url": "https://learn.javascript.ru/shadow-dom-style#css-huki-s-polzovatelskimi-svoystvami",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "shadow-dom-events",
+        "title": "Теневой DOM и события",
+        "url": "https://learn.javascript.ru/shadow-dom-events",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "vsplytie-i-metod-event-composedpath",
+            "title": "Всплытие и метод event.composedPath()",
+            "url": "https://learn.javascript.ru/shadow-dom-events#vsplytie-i-metod-event-composedpath",
+            "applications": []
+          },
+          {
+            "id": "svoystvo-event-composed",
+            "title": "Свойство: event.composed",
+            "url": "https://learn.javascript.ru/shadow-dom-events#svoystvo-event-composed",
+            "applications": []
+          },
+          {
+            "id": "generatsiya-sobytiy",
+            "title": "Генерация событий",
+            "url": "https://learn.javascript.ru/shadow-dom-events#generatsiya-sobytiy",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      }
+    ]
+  },
+  "regular-expressions": {
+    "title": "Регулярные выражения",
+    "articles": [
+      {
+        "id": "regexp-introduction",
+        "title": "Введение: шаблоны и флаги",
+        "url": "https://learn.javascript.ru/regexp-introduction",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-character-classes",
+        "title": "Символьные классы",
+        "url": "https://learn.javascript.ru/regexp-character-classes",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-unicode",
+        "title": "Юникод: флаг \"u\" и класс \\p{...}",
+        "url": "https://learn.javascript.ru/regexp-unicode",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-anchors",
+        "title": "Якоря: начало строки ^ и конец $",
+        "url": "https://learn.javascript.ru/regexp-anchors",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-multiline-mode",
+        "title": "Многострочный режим якорей ^ $, флаг \"m\"",
+        "url": "https://learn.javascript.ru/regexp-multiline-mode",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-boundary",
+        "title": "Граница слова: \\b",
+        "url": "https://learn.javascript.ru/regexp-boundary",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-escaping",
+        "title": "Экранирование, специальные символы",
+        "url": "https://learn.javascript.ru/regexp-escaping",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-character-sets-and-ranges",
+        "title": "Наборы и диапазоны [...]",
+        "url": "https://learn.javascript.ru/regexp-character-sets-and-ranges",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-quantifiers",
+        "title": "Квантификаторы +, *, ? и {n}",
+        "url": "https://learn.javascript.ru/regexp-quantifiers",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-greedy-and-lazy",
+        "title": "Жадные и ленивые квантификаторы",
+        "url": "https://learn.javascript.ru/regexp-greedy-and-lazy",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-groups",
+        "title": "Скобочные группы",
+        "url": "https://learn.javascript.ru/regexp-groups",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-backreferences",
+        "title": "Обратные ссылки в шаблоне: \\N и \\k<имя>",
+        "url": "https://learn.javascript.ru/regexp-backreferences",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-alternation",
+        "title": "Альтернация (или) |",
+        "url": "https://learn.javascript.ru/regexp-alternation",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-lookahead-lookbehind",
+        "title": "Опережающие и ретроспективные проверки",
+        "url": "https://learn.javascript.ru/regexp-lookahead-lookbehind",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-catastrophic-backtracking",
+        "title": "Катастрофический возврат",
+        "url": "https://learn.javascript.ru/regexp-catastrophic-backtracking",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primer",
+            "title": "Пример",
+            "url": "https://learn.javascript.ru/regexp-catastrophic-backtracking#primer",
+            "applications": []
+          },
+          {
+            "id": "uproschyonnyy-primer",
+            "title": "Упрощённый пример",
+            "url": "https://learn.javascript.ru/regexp-catastrophic-backtracking#uproschyonnyy-primer",
+            "applications": []
+          },
+          {
+            "id": "nazad-k-slovam-i-strokam",
+            "title": "Назад к словам и строкам",
+            "url": "https://learn.javascript.ru/regexp-catastrophic-backtracking#nazad-k-slovam-i-strokam",
+            "applications": []
+          },
+          {
+            "id": "kak-ispravit",
+            "title": "Как исправить?",
+            "url": "https://learn.javascript.ru/regexp-catastrophic-backtracking#kak-ispravit",
+            "applications": []
+          },
+          {
+            "id": "zapret-vozvrata",
+            "title": "Запрет возврата",
+            "url": "https://learn.javascript.ru/regexp-catastrophic-backtracking#zapret-vozvrata",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "regexp-sticky",
+        "title": "Поиск на заданной позиции, флаг \"y\"",
+        "url": "https://learn.javascript.ru/regexp-sticky",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      },
+      {
+        "id": "regexp-methods",
+        "title": "Методы RegExp и String",
+        "url": "https://learn.javascript.ru/regexp-methods",
+        "level": "syntax",
+        "sections": [],
+        "progress": 100
+      }
+    ]
+  },
+  "css-for-js": {
+    "title": "CSS для JavaScript-разработчика",
+    "articles": [
+      {
+        "id": "css-why",
+        "title": "О чём пойдёт речь",
+        "url": "https://learn.javascript.ru/css-why",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "chek-list",
+            "title": "Чек-лист",
+            "url": "https://learn.javascript.ru/css-why#chek-list",
+            "applications": []
+          },
+          {
+            "id": "pochitat",
+            "title": "Почитать",
+            "url": "https://learn.javascript.ru/css-why#pochitat",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "css-units",
+        "title": "Единицы измерения: px, em, rem и другие",
+        "url": "https://learn.javascript.ru/css-units",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "pikseli-px",
+            "title": "Пиксели: px",
+            "url": "https://learn.javascript.ru/css-units#pikseli-px",
+            "applications": []
+          },
+          {
+            "id": "otnositelno-shrifta-em",
+            "title": "Относительно шрифта: em",
+            "url": "https://learn.javascript.ru/css-units#otnositelno-shrifta-em",
+            "applications": []
+          },
+          {
+            "id": "protsenty",
+            "title": "Проценты %",
+            "url": "https://learn.javascript.ru/css-units#protsenty",
+            "applications": []
+          },
+          {
+            "id": "edinitsa-rem-smes-px-i-em",
+            "title": "Единица rem: смесь px и em",
+            "url": "https://learn.javascript.ru/css-units#edinitsa-rem-smes-px-i-em",
+            "applications": []
+          },
+          {
+            "id": "otnositelno-ekrana-vw-vh-vmin-vmax",
+            "title": "Относительно экрана: vw, vh, vmin, vmax",
+            "url": "https://learn.javascript.ru/css-units#otnositelno-ekrana-vw-vh-vmin-vmax",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "display",
+        "title": "Все значения свойства display",
+        "url": "https://learn.javascript.ru/display",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "znachenie-none",
+            "title": "Значение none",
+            "url": "https://learn.javascript.ru/display#znachenie-none",
+            "applications": []
+          },
+          {
+            "id": "znachenie-block",
+            "title": "Значение block",
+            "url": "https://learn.javascript.ru/display#znachenie-block",
+            "applications": []
+          },
+          {
+            "id": "znachenie-inline",
+            "title": "Значение inline",
+            "url": "https://learn.javascript.ru/display#znachenie-inline",
+            "applications": []
+          },
+          {
+            "id": "znachenie-inline-block",
+            "title": "Значение inline-block",
+            "url": "https://learn.javascript.ru/display#znachenie-inline-block",
+            "applications": []
+          },
+          {
+            "id": "znacheniya-table",
+            "title": "Значения table-*",
+            "url": "https://learn.javascript.ru/display#znacheniya-table",
+            "applications": []
+          },
+          {
+            "id": "znacheniya-list-item-run-in-i-flex",
+            "title": "Значения list-item, run-in и flex",
+            "url": "https://learn.javascript.ru/display#znacheniya-list-item-run-in-i-flex",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "float",
+        "title": "Свойство float",
+        "url": "https://learn.javascript.ru/float",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "float-algorithm",
+            "title": "Как работает float",
+            "url": "https://learn.javascript.ru/float#float-algorithm",
+            "applications": []
+          },
+          {
+            "id": "ochistka-pod-float",
+            "title": "Очистка под float",
+            "url": "https://learn.javascript.ru/float#ochistka-pod-float",
+            "applications": []
+          },
+          {
+            "id": "zapolnenie-bloka-roditelya",
+            "title": "Заполнение блока-родителя",
+            "url": "https://learn.javascript.ru/float#zapolnenie-bloka-roditelya",
+            "applications": []
+          },
+          {
+            "id": "float-vmesto-display-inline-block",
+            "title": "float вместо display:inline-block",
+            "url": "https://learn.javascript.ru/float#float-vmesto-display-inline-block",
+            "applications": []
+          },
+          {
+            "id": "vyorstka-v-neskolko-kolonok",
+            "title": "Вёрстка в несколько колонок",
+            "url": "https://learn.javascript.ru/float#vyorstka-v-neskolko-kolonok",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "position",
+        "title": "Свойство position",
+        "url": "https://learn.javascript.ru/position",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "position-static",
+            "title": "position: static",
+            "url": "https://learn.javascript.ru/position#position-static",
+            "applications": []
+          },
+          {
+            "id": "position-relative",
+            "title": "position: relative",
+            "url": "https://learn.javascript.ru/position#position-relative",
+            "applications": []
+          },
+          {
+            "id": "position-absolute",
+            "title": "position: absolute",
+            "url": "https://learn.javascript.ru/position#position-absolute",
+            "applications": []
+          },
+          {
+            "id": "position-absolute-v-pozitsionirovannom-roditele",
+            "title": "position: absolute в позиционированном родителе",
+            "url": "https://learn.javascript.ru/position#position-absolute-v-pozitsionirovannom-roditele",
+            "applications": []
+          },
+          {
+            "id": "position-fixed",
+            "title": "position: fixed",
+            "url": "https://learn.javascript.ru/position#position-fixed",
+            "applications": []
+          },
+          {
+            "id": "pochitat",
+            "title": "Почитать",
+            "url": "https://learn.javascript.ru/position#pochitat",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "css-center",
+        "title": "Центрирование горизонтальное и вертикальное",
+        "url": "https://learn.javascript.ru/css-center",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "gorizontalnoe",
+            "title": "Горизонтальное",
+            "url": "https://learn.javascript.ru/css-center#gorizontalnoe",
+            "applications": []
+          },
+          {
+            "id": "vertikalnoe",
+            "title": "Вертикальное",
+            "url": "https://learn.javascript.ru/css-center#vertikalnoe",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "font-size-line-height",
+        "title": "Свойства font-size и line-height",
+        "url": "https://learn.javascript.ru/font-size-line-height",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "font-size-i-line-height",
+            "title": "font-size и line-height",
+            "url": "https://learn.javascript.ru/font-size-line-height#font-size-i-line-height",
+            "applications": []
+          },
+          {
+            "id": "mnozhitel-dlya-line-height",
+            "title": "Множитель для line-height",
+            "url": "https://learn.javascript.ru/font-size-line-height#mnozhitel-dlya-line-height",
+            "applications": []
+          },
+          {
+            "id": "sintaksis-font-size-height-family",
+            "title": "Синтаксис font: size/height family",
+            "url": "https://learn.javascript.ru/font-size-line-height#sintaksis-font-size-height-family",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "white-space",
+        "title": "Свойство white-space",
+        "url": "https://learn.javascript.ru/white-space",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "pre-nowrap",
+            "title": "pre / nowrap",
+            "url": "https://learn.javascript.ru/white-space#pre-nowrap",
+            "applications": []
+          },
+          {
+            "id": "pre-wrap-pre-line",
+            "title": "pre-wrap/pre-line",
+            "url": "https://learn.javascript.ru/white-space#pre-wrap-pre-line",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "outline",
+        "title": "Свойство outline",
+        "url": "https://learn.javascript.ru/outline",
+        "level": "concept",
+        "sections": [],
+        "progress": 0
+      },
+      {
+        "id": "box-sizing",
+        "title": "Свойство box-sizing",
+        "url": "https://learn.javascript.ru/box-sizing",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "znacheniya-box-sizing",
+            "title": "Значения box-sizing",
+            "url": "https://learn.javascript.ru/box-sizing#znacheniya-box-sizing",
+            "applications": []
+          },
+          {
+            "id": "primer-podstroit-shirinu-k-roditelyu",
+            "title": "Пример: подстроить ширину к родителю",
+            "url": "https://learn.javascript.ru/box-sizing#primer-podstroit-shirinu-k-roditelyu",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "margin",
+        "title": "Свойство margin",
+        "url": "https://learn.javascript.ru/margin",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "obedinenie-otstupov",
+            "title": "Объединение отступов",
+            "url": "https://learn.javascript.ru/margin#obedinenie-otstupov",
+            "applications": []
+          },
+          {
+            "id": "otritsatelnye-margin-top-left",
+            "title": "Отрицательные margin-top/left",
+            "url": "https://learn.javascript.ru/margin#otritsatelnye-margin-top-left",
+            "applications": []
+          },
+          {
+            "id": "primer-vynos-zagolovka",
+            "title": "Пример: вынос заголовка",
+            "url": "https://learn.javascript.ru/margin#primer-vynos-zagolovka",
+            "applications": []
+          },
+          {
+            "id": "primer-vynos-razryva",
+            "title": "Пример: вынос разрыва",
+            "url": "https://learn.javascript.ru/margin#primer-vynos-razryva",
+            "applications": []
+          },
+          {
+            "id": "otritsatelnye-margin-right-bottom",
+            "title": "Отрицательные margin-right/bottom",
+            "url": "https://learn.javascript.ru/margin#otritsatelnye-margin-right-bottom",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "space-under-img",
+        "title": "Лишнее место под IMG",
+        "url": "https://learn.javascript.ru/space-under-img",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "demonstratsiya-problemy",
+            "title": "Демонстрация проблемы",
+            "url": "https://learn.javascript.ru/space-under-img#demonstratsiya-problemy",
+            "applications": []
+          },
+          {
+            "id": "reshenie-sdelat-element-blochnym",
+            "title": "Решение: сделать элемент блочным",
+            "url": "https://learn.javascript.ru/space-under-img#reshenie-sdelat-element-blochnym",
+            "applications": []
+          },
+          {
+            "id": "reshenie-zadat-vertical-align",
+            "title": "Решение: задать vertical-align",
+            "url": "https://learn.javascript.ru/space-under-img#reshenie-zadat-vertical-align",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "overflow",
+        "title": "Свойство overflow",
+        "url": "https://learn.javascript.ru/overflow",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "visible",
+            "title": "visible",
+            "url": "https://learn.javascript.ru/overflow#visible",
+            "applications": []
+          },
+          {
+            "id": "hidden",
+            "title": "hidden",
+            "url": "https://learn.javascript.ru/overflow#hidden",
+            "applications": []
+          },
+          {
+            "id": "auto",
+            "title": "auto",
+            "url": "https://learn.javascript.ru/overflow#auto",
+            "applications": []
+          },
+          {
+            "id": "scroll",
+            "title": "scroll",
+            "url": "https://learn.javascript.ru/overflow#scroll",
+            "applications": []
+          },
+          {
+            "id": "overflow-x-overflow-y",
+            "title": "overflow-x, overflow-y",
+            "url": "https://learn.javascript.ru/overflow#overflow-x-overflow-y",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "height-percent",
+        "title": "Особенности свойства height в %",
+        "url": "https://learn.javascript.ru/height-percent",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "primer",
+            "title": "Пример",
+            "url": "https://learn.javascript.ru/height-percent#primer",
+            "applications": []
+          },
+          {
+            "id": "demo-height-100-float-left",
+            "title": "Демо height:100% + float:left",
+            "url": "https://learn.javascript.ru/height-percent#demo-height-100-float-left",
+            "applications": []
+          },
+          {
+            "id": "pravilno-height-100-position-absolute",
+            "title": "Правильно: height:100% + position:absolute",
+            "url": "https://learn.javascript.ru/height-percent#pravilno-height-100-position-absolute",
+            "applications": []
+          },
+          {
+            "id": "problema-s-height-100-proyavlyayuschayasya-kogda-u-roditelskogo-elementa-ne-ustanovlen-height-no-ukazan-min-height",
+            "title": "Проблема с height: 100%, проявляющаяся, когда у родительского элемента не установлен height, но указан min-height",
+            "url": "https://learn.javascript.ru/height-percent#problema-s-height-100-proyavlyayuschayasya-kogda-u-roditelskogo-elementa-ne-ustanovlen-height-no-ukazan-min-height",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "css-selectors",
+        "title": "Знаете ли вы селекторы?",
+        "url": "https://learn.javascript.ru/css-selectors",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "osnovnye-vidy-selektorov",
+            "title": "Основные виды селекторов",
+            "url": "https://learn.javascript.ru/css-selectors#osnovnye-vidy-selektorov",
+            "applications": []
+          },
+          {
+            "id": "otnosheniya",
+            "title": "Отношения",
+            "url": "https://learn.javascript.ru/css-selectors#otnosheniya",
+            "applications": []
+          },
+          {
+            "id": "filtr-po-mestu-sredi-sosedey",
+            "title": "Фильтр по месту среди соседей",
+            "url": "https://learn.javascript.ru/css-selectors#filtr-po-mestu-sredi-sosedey",
+            "applications": []
+          },
+          {
+            "id": "filtr-po-mestu-sredi-sosedey-s-tem-zhe-tegom",
+            "title": "Фильтр по месту среди соседей с тем же тегом",
+            "url": "https://learn.javascript.ru/css-selectors#filtr-po-mestu-sredi-sosedey-s-tem-zhe-tegom",
+            "applications": []
+          },
+          {
+            "id": "selektory-atributov",
+            "title": "Селекторы атрибутов",
+            "url": "https://learn.javascript.ru/css-selectors#selektory-atributov",
+            "applications": []
+          },
+          {
+            "id": "drugie-psevdoklassy",
+            "title": "Другие псевдоклассы",
+            "url": "https://learn.javascript.ru/css-selectors#drugie-psevdoklassy",
+            "applications": []
+          },
+          {
+            "id": "psevdoelementy-before-after",
+            "title": "Псевдоэлементы ::before, ::after",
+            "url": "https://learn.javascript.ru/css-selectors#psevdoelementy-before-after",
+            "applications": []
+          },
+          {
+            "id": "praktika",
+            "title": "Практика",
+            "url": "https://learn.javascript.ru/css-selectors#praktika",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "css-sprite",
+        "title": "CSS-спрайты",
+        "url": "https://learn.javascript.ru/css-sprite",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "shag-1-ispolzovat-background",
+            "title": "Шаг 1. Использовать background",
+            "url": "https://learn.javascript.ru/css-sprite#shag-1-ispolzovat-background",
+            "applications": []
+          },
+          {
+            "id": "shag-2-obedinit-izobrazheniya",
+            "title": "Шаг 2. Объединить изображения",
+            "url": "https://learn.javascript.ru/css-sprite#shag-2-obedinit-izobrazheniya",
+            "applications": []
+          },
+          {
+            "id": "shag-3-pokazat-chast-sprayta-v-okoshke",
+            "title": "Шаг 3. Показать часть спрайта в «окошке»",
+            "url": "https://learn.javascript.ru/css-sprite#shag-3-pokazat-chast-sprayta-v-okoshke",
+            "applications": []
+          },
+          {
+            "id": "shag-4-sdvinut-sprayt",
+            "title": "Шаг 4. Сдвинуть спрайт",
+            "url": "https://learn.javascript.ru/css-sprite#shag-4-sdvinut-sprayt",
+            "applications": []
+          }
+        ],
+        "progress": 0
+      },
+      {
+        "id": "css-format",
+        "title": "Правила форматирования CSS",
+        "url": "https://learn.javascript.ru/css-format",
+        "level": "concept",
+        "sections": [
+          {
+            "id": "kazhdoe-svoystvo-na-otdelnoy-stroke",
+            "title": "Каждое свойство – на отдельной строке",
+            "url": "https://learn.javascript.ru/css-format#kazhdoe-svoystvo-na-otdelnoy-stroke",
+            "applications": []
+          },
+          {
+            "id": "kazhdyy-selektor-na-otdelnoy-stroke",
+            "title": "Каждый селектор – на отдельной строке",
+            "url": "https://learn.javascript.ru/css-format#kazhdyy-selektor-na-otdelnoy-stroke",
+            "applications": []
+          },
+          {
+            "id": "svoystva-silnee-vliyayuschie-na-dokument-idut-pervymi",
+            "title": "Свойства, сильнее влияющие на документ, идут первыми",
+            "url": "https://learn.javascript.ru/css-format#svoystva-silnee-vliyayuschie-na-dokument-idut-pervymi",
+            "applications": []
+          },
+          {
+            "id": "organizatsiya-css-faylov-proekta",
+            "title": "Организация CSS-файлов проекта",
+            "url": "https://learn.javascript.ru/css-format#organizatsiya-css-faylov-proekta",
+            "applications": []
+          }
+        ],
+        "progress": 0
       }
     ]
   }

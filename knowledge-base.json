@@ -2413,7 +2413,7 @@
             "applications": []
           }
         ],
-        "progress": 0
+        "progress": 20
       },
       {
         "id": "modifying-document",
@@ -2972,7 +2972,14 @@
             "id": "sobytiya-keydown-i-keyup",
             "title": "События keydown и keyup",
             "url": "https://learn.javascript.ru/keyboard-events#sobytiya-keydown-i-keyup",
-            "applications": []
+            "applications": [
+              {
+                "project": "js-calculator",
+                "commit": "c54b388",
+                "date": "2025-11-18T11:50:46.178Z",
+                "commitUrl": "https://github.com/js-calculator/commit/c54b388"
+              }
+            ]
           },
           {
             "id": "avtopovtor",
@@ -2993,7 +3000,7 @@
             "applications": []
           }
         ],
-        "progress": 0
+        "progress": 40
       },
       {
         "id": "pointer-events",
